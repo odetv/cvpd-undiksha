@@ -3,7 +3,7 @@ import React from "react";
 import FileModuleDownload from "../assets/files/MODULE CVPD 2022.pdf";
 import { Link } from "react-router-dom";
 
-export default function Example() {
+const About = () => {
     return (
         <div className="mt-8 px-4 mx-auto max-w-screen-lg mb-8">
             <div className="px-4 sm:px-0 text-center">
@@ -155,4 +155,6 @@ export default function Example() {
             </div>
         </div>
     );
-}
+};
+
+export default About;

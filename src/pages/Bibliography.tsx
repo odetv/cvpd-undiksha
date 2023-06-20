@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Bibliography() {
+const Bibliography = () => {
     return (
         <div className="mt-8 px-4 mx-auto max-w-screen-lg mb-8">
             <div className="px-4 sm:px-0 text-center">
@@ -8,7 +8,7 @@ export default function Bibliography() {
                     BIBLIOGRAPHY
                 </h1>
             </div>
-            <div className="mt-6 border-t border-gray-100">
+            <div className="px-4 lg:px-0 xl:px-0 mt-6 border-t border-gray-100">
                 <dd className="mt-6 text-sm leading-6 text-gray-700 sm:col-span-2">
                     Abobatta, W.F., & Azazy, L. (2020). Role of Organic and
                     Biofertilizers in Citrus Orchards. Aswan University Journal
@@ -137,4 +137,6 @@ export default function Bibliography() {
             </div>
         </div>
     );
-}
+};
+
+export default Bibliography;
