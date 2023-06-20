@@ -14,10 +14,10 @@ const About = () => {
             <div className="mt-6 border-t border-gray-100">
                 <dl className="divide-y divide-gray-100">
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Author
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             Luh Mitha Priyanka, S.Pd., M.Pd.<br></br>
                             Dr. Ir. Ketut Srie Marhaeni Julyasih, M.Si.<br></br>
                             I Gede Arjana, S.Pd., M.Sc. RWTH<br></br>
@@ -26,40 +26,40 @@ const About = () => {
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Editor
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             Prof. Dr. I Nengah Suparta, M.Si<br></br>
                             Dr. I Wayan Muderawan, M.S.<br></br>
                             Dr. I Wayan Sukra Warpala, M.Sc.<br></br>
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Published by
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             UNDIKSHA PRESS<br></br>
                             Jalan Udayana, Kampus Tengah<br></br>
                             Singaraja-Bali Telp (0362). 22570<br></br>
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Printing
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             Undiksha<br></br>
                             Jalan Udayana No. 11 Singaraja 81116, Bali.<br></br>
                             ISBN 978-623-7482-52-9<br></br>
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             About
                         </dt>
-                        <dd className="mt-1 text-justify text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 text-justify leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             Socio-scientific issues are complex and contentious
                             societal issues with substantive connections to
                             scientific ideas and principles. The context of SSI
@@ -104,14 +104,14 @@ const About = () => {
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Bibliography
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             <div className="py-6">
                                 <Link
                                     to="/bibliography"
-                                    className="font-medium text-indigo-600 hover:text-indigo-500 divide-y divide-gray-100 px-4 py-4 rounded-md border"
+                                    className="font-medium text-sm text-indigo-600 hover:text-indigo-500 divide-y divide-gray-100 px-4 py-4 rounded-md border"
                                 >
                                     Check Bibliography
                                 </Link>
@@ -119,15 +119,15 @@ const About = () => {
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                        <dt className="font-bold leading-6 text-gray-900">
                             Attachments
                         </dt>
-                        <dd className="py-3 first-line:text-sm text-gray-900 sm:col-span-2">
+                        <dd className="py-3 first-line:text-gray-900 sm:col-span-2">
                             <ul
                                 role="list"
                                 className="divide-y divide-gray-100 rounded-md border border-gray-200"
                             >
-                                <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
+                                <li className="flex items-center justify-between py-4 pl-4 pr-5 leading-6">
                                     <div className="flex w-0 flex-1 items-center">
                                         <PaperClipIcon
                                             className="h-5 w-5 flex-shrink-0 text-gray-400"
@@ -142,7 +142,7 @@ const About = () => {
                                     <div className="ml-4 flex-shrink-0">
                                         <a
                                             href={FileModuleDownload}
-                                            className="font-medium text-indigo-600 hover:text-indigo-500"
+                                            className="font-medium text-sm text-indigo-600 hover:text-indigo-500"
                                         >
                                             Download
                                         </a>

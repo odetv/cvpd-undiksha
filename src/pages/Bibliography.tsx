@@ -9,7 +9,7 @@ const Bibliography = () => {
                 </h1>
             </div>
             <div className="px-4 lg:px-0 xl:px-0 mt-6 border-t border-gray-100">
-                <dd className="break-all mt-6 text-sm leading-6 text-gray-700 sm:col-span-2">
+                <dd className="break-all mt-6 leading-6 text-gray-700 sm:col-span-2">
                     Abobatta, W.F., & Azazy, L. (2020). Role of Organic and
                     Biofertilizers in Citrus Orchards. Aswan University Journal
                     of Environmental Studies (AUJES), 1(1), 12-27.

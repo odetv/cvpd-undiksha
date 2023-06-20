@@ -6,7 +6,7 @@ const App = () => {
     return (
         <>
             <section className="bg-white">
-                <div className="mt-8 px-4 mx-auto lg:m-8">
+                <div className="mt-8 mb-8 px-4 mx-auto lg:m-8">
                     <div className="mx-auto max-w-screen-2xl mb-8">
                         <h1 className="mb-2 text-center text-xl lg:text-2xl font-bold text-gray-900">
                             SOCIO-SCIENTIFIC ISSUE
@@ -20,7 +20,7 @@ const App = () => {
                             alt="image"
                             className="mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
                         />
-                        <p className="font-light text-justify text-gray-500 sm:text-base">
+                        <p className="font-light text-justify text-gray-500 text-base">
                             Did you know that CPVD disease is a major cause of
                             yield loss in citrus plantations in almost all
                             countries, especially in Asia and Africa? Citrus is
@@ -61,13 +61,13 @@ const App = () => {
                                     Section 1
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     ENCOUNTER FOCAL ISSUE: How Dangerous CVPD
                                     Disease in Citrus Plantation
                                 </Link>
                             </h2>
-                            <p className="mb-5 font-light text-gray-500">
+                            <p className="mb-5 text-sm font-light text-gray-500">
                                 This section will explain what CVPD is and its
                                 threat to citrus plantations. You will also
                                 learn about the additional problematic aspect of
@@ -96,12 +96,12 @@ const App = () => {
                                     Section 2
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     ENGAGE WITH THREE-DIMENSIONAL LEARNING
                                 </Link>
                             </h2>
-                            <p className="mb-5 font-light text-gray-500">
+                            <p className="mb-5 text-sm font-light text-gray-500">
                                 This second section will help you engage in
                                 three-dimensional learning related to CVPD
                                 disease in citrus plantations. You will discover
@@ -132,13 +132,13 @@ const App = () => {
                                     Section 3
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease
                                     in Citrus Plantation
                                 </Link>
                             </h2>
-                            <p className="mb-5 font-light text-gray-500">
+                            <p className="mb-5 text-sm font-light text-gray-500">
                                 In this third section you will find the possible
                                 way as the best solution to prevent CVPD disease
                                 in Citrus plantation (including evaluation and
@@ -168,13 +168,13 @@ const App = () => {
                                     Section 4
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SUSTAINABLE DEVELOPMENT THROUGH Integrated
                                     Management of Healthy Citrus
                                 </Link>
                             </h2>
-                            <p className="mb-5 font-light text-gray-500">
+                            <p className="mb-5 text-sm font-light text-gray-500">
                                 In this fourth section you will learn the
                                 concept of sustainable development and how far
                                 Integrated Management of Healthy Citrus relates
