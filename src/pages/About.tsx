@@ -59,7 +59,7 @@ export default function Example() {
                         <dt className="text-sm font-bold leading-6 text-gray-900">
                             About
                         </dt>
-                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                        <dd className="mt-1 text-justify text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                             Socio-scientific issues are complex and contentious
                             societal issues with substantive connections to
                             scientific ideas and principles. The context of SSI
@@ -108,7 +108,7 @@ export default function Example() {
                             Bibliography
                         </dt>
                         <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                            <div className="">
+                            <div className="py-6">
                                 <Link
                                     to="/bibliography"
                                     className="font-medium text-indigo-600 hover:text-indigo-500 divide-y divide-gray-100 px-4 py-4 rounded-md border"
@@ -122,7 +122,7 @@ export default function Example() {
                         <dt className="text-sm font-bold leading-6 text-gray-900">
                             Attachments
                         </dt>
-                        <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+                        <dd className="py-3 first-line:text-sm text-gray-900 sm:col-span-2">
                             <ul
                                 role="list"
                                 className="divide-y divide-gray-100 rounded-md border border-gray-200"
