@@ -12,7 +12,7 @@ const App = () => {
                             Planation
                         </h1>
                         <img
-                            src="src/assets/intro.jpg"
+                            src="/public/intro.jpg"
                             className="mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
                             alt="..."
                         />
