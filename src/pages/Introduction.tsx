@@ -1,3 +1,4 @@
+import ImageIntro from "../assets/images/intro.jpg";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -7,67 +8,18 @@ const App = () => {
             <section className="bg-white">
                 <div className="mt-8 px-4 mx-auto lg:m-8">
                     <div className="mx-auto max-w-screen-2xl mb-8">
-                        <h1 className="mb-2 text-center text-2xl lg:text-3xl font-bold text-gray-900">
+                        <h1 className="mb-2 text-center text-xl lg:text-2xl font-bold text-gray-900">
                             SOCIO-SCIENTIFIC ISSUE
                         </h1>
-                        <h1 className="mb-6 text-center marker:text-lg lg:text-xl font-bold text-gray-900">
-                            CVPD DISEASE IN CITRUS PLANTATION SAT KINTAMANI,
+                        <h1 className="mb-6 text-center lg:text-lg font-bold text-gray-500">
+                            CVPD DISEASE IN CITRUS PLANTATIONS AT KINTAMANI,
                             BANGLI-INDONESIA
                         </h1>
                         <img
-                            src="https://telegra.ph/file/6946db2733f715ec893ac.jpg"
+                            src={ImageIntro}
+                            alt="image"
                             className="mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
-                            alt="..."
                         />
-                        <p className="font-light text-justify text-gray-500 sm:text-base">
-                            Socio-scientific issues are complex and contentious
-                            societal issues with substantive connections to
-                            scientific ideas and principles. The context of SSI
-                            in learning begins in the nearby neighborhood and
-                            has reality and meaning in everyday life. SSI is
-                            chosen as a context for learning because it may be
-                            utilized to make students' science education more
-                            relevant while also enhancing their capacity to
-                            analyze scientific data. One of the socio-scientific
-                            issues that is used in this proposed research is the
-                            CVPD disease issue that has been attacking citrus
-                            crops in several plantations at Kintamani, Bangli,
-                            Indonesia. This issue has become one of the local
-                            environmental issues that is not only happening in
-                            Bali but also in other areas of Indonesia. In order
-                            to help the farmers control the CVPD disease, it is
-                            crucial to provide them with enough information on
-                            how to comprehend all control techniques. It entails
-                            providing information on how to prevent and manage
-                            the insect vectors that transmit this CVPD disease.
-                            Incorporating knowledge and data regarding the
-                            identification of CVPD disease vectors into a
-                            learning module is one of the effective methods. The
-                            designed SSIbased learning module can inform
-                            students about current local issues occurring in
-                            their surroundings. In addition to presenting
-                            knowledge about the CVPD and the CPVD-carrying
-                            insect vectors, students will be encouraged to
-                            utilize their critical thinking abilities to analyze
-                            the module's content in order to comprehend the CVPD
-                            disease's control strategies. Lastly, the students
-                            can also share any useful information from the
-                            module to educate the local farmers about the vector
-                            insect control that can be used as one strategy to
-                            cope with the CPVD disease, which has been harming
-                            the plantation yields of local farmers. This SSI
-                            module is a result of joint research Counterpart CRC
-                            990 EFFor-TS between Undiksha and Gottingen
-                            University with supported by The Ministry of
-                            Education, Culture, Research, and Technology, and
-                            IPB.
-                        </p>
-                        <h1 className="mt-12 mb-2 text-center text-2xl lg:text-3xl font-bold text-gray-900">
-                            Introduction
-                        </h1>
-                        <h2 className="mb-6 text-center marker:text-lg lg:text-xl font-bold text-gray-900">
-                            CVPD Disease in Citrus Plantation
-                        </h2>
                         <p className="font-light text-justify text-gray-500 sm:text-base">
                             Did you know that CPVD disease is a major cause of
                             yield loss in citrus plantations in almost all
@@ -133,11 +85,7 @@ const App = () => {
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"
-                                        ></path>
+                                        <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
                                     </svg>
                                 </Link>
                             </div>
@@ -173,11 +121,7 @@ const App = () => {
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"
-                                        ></path>
+                                        <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
                                     </svg>
                                 </Link>
                             </div>
@@ -213,11 +157,7 @@ const App = () => {
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"
-                                        ></path>
+                                        <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
                                     </svg>
                                 </Link>
                             </div>
@@ -252,11 +192,7 @@ const App = () => {
                                         viewBox="0 0 20 20"
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <path
-                                            fill-rule="evenodd"
-                                            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                                            clip-rule="evenodd"
-                                        ></path>
+                                        <path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path>
                                     </svg>
                                 </Link>
                             </div>
