@@ -7,15 +7,61 @@ const App = () => {
             <section className="bg-white">
                 <div className="mt-8 px-4 mx-auto lg:m-8">
                     <div className="mx-auto max-w-screen-2xl mb-8">
-                        <h1 className="mb-2 text-center text-3xl lg:text-4xl font-bold text-gray-900">
-                            SOCIO-SCIENTIFIC ISSUE CVPD Sisease in Citrus
-                            Planation
+                        <h1 className="mb-2 text-center text-2xl lg:text-3xl font-bold text-gray-900">
+                            SOCIO-SCIENTIFIC ISSUE
+                        </h1>
+                        <h1 className="mb-6 text-center marker:text-lg lg:text-xl font-bold text-gray-900">
+                            CVPD DISEASE IN CITRUS PLANTATION SAT KINTAMANI,
+                            BANGLI-INDONESIA
                         </h1>
                         <img
                             src="https://telegra.ph/file/6946db2733f715ec893ac.jpg"
                             className="mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
                             alt="..."
                         />
+                        <p className="font-light text-justify text-gray-500 sm:text-base">
+                            Socio-scientific issues are complex and contentious
+                            societal issues with substantive connections to
+                            scientific ideas and principles. The context of SSI
+                            in learning begins in the nearby neighborhood and
+                            has reality and meaning in everyday life. SSI is
+                            chosen as a context for learning because it may be
+                            utilized to make students' science education more
+                            relevant while also enhancing their capacity to
+                            analyze scientific data. One of the socio-scientific
+                            issues that is used in this proposed research is the
+                            CVPD disease issue that has been attacking citrus
+                            crops in several plantations at Kintamani, Bangli,
+                            Indonesia. This issue has become one of the local
+                            environmental issues that is not only happening in
+                            Bali but also in other areas of Indonesia. In order
+                            to help the farmers control the CVPD disease, it is
+                            crucial to provide them with enough information on
+                            how to comprehend all control techniques. It entails
+                            providing information on how to prevent and manage
+                            the insect vectors that transmit this CVPD disease.
+                            Incorporating knowledge and data regarding the
+                            identification of CVPD disease vectors into a
+                            learning module is one of the effective methods. The
+                            designed SSIbased learning module can inform
+                            students about current local issues occurring in
+                            their surroundings. In addition to presenting
+                            knowledge about the CVPD and the CPVD-carrying
+                            insect vectors, students will be encouraged to
+                            utilize their critical thinking abilities to analyze
+                            the module's content in order to comprehend the CVPD
+                            disease's control strategies. Lastly, the students
+                            can also share any useful information from the
+                            module to educate the local farmers about the vector
+                            insect control that can be used as one strategy to
+                            cope with the CPVD disease, which has been harming
+                            the plantation yields of local farmers. This SSI
+                            module is a result of joint research Counterpart CRC
+                            990 EFFor-TS between Undiksha and Gottingen
+                            University with supported by The Ministry of
+                            Education, Culture, Research, and Technology, and
+                            IPB.
+                        </p>
                         <h1 className="mt-12 mb-2 text-center text-2xl lg:text-3xl font-bold text-gray-900">
                             Introduction
                         </h1>
@@ -63,7 +109,7 @@ const App = () => {
                                     Section 1
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900">
+                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     ENCOUNTER FOCAL ISSUE: How Dangerous CVPD
                                     Disease in Citrus Plantation
@@ -102,7 +148,7 @@ const App = () => {
                                     Section 2
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900">
+                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     ENGAGE WITH THREE-DIMENSIONAL LEARNING
                                 </Link>
@@ -142,7 +188,7 @@ const App = () => {
                                     Section 3
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900">
+                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease
                                     in Citrus Plantation
@@ -182,7 +228,7 @@ const App = () => {
                                     Section 4
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-2xl font-bold text-gray-900">
+                            <h2 className="mb-2 text-2xl font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SUSTAINABLE DEVELOPMENT THROUGH Integrated
                                     Management of Healthy Citrus
