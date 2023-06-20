@@ -1,6 +1,7 @@
 import { PaperClipIcon } from "@heroicons/react/20/solid";
 import React from "react";
 import FileModuleDownload from "../assets/files/MODULE CVPD 2022.pdf";
+import { Link } from "react-router-dom";
 
 export default function Example() {
     return (
@@ -100,6 +101,21 @@ export default function Example() {
                             University with supported by The Ministry of
                             Education, Culture, Research, and Technology, and
                             IPB.
+                        </dd>
+                    </div>
+                    <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                        <dt className="text-sm font-bold leading-6 text-gray-900">
+                            Bibliography
+                        </dt>
+                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                            <div className="">
+                                <Link
+                                    to="/bibliography"
+                                    className="font-medium text-indigo-600 hover:text-indigo-500 divide-y divide-gray-100 px-4 py-4 rounded-md border"
+                                >
+                                    Check Bibliography
+                                </Link>
+                            </div>
                         </dd>
                     </div>
                     <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
