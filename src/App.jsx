@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <h1 className="text-center text-2xl mt-4">Konten</h1>
+      <h1 className="text-center text-2xl mt-4">Contents</h1>
       <Footer />
     </>
   );
