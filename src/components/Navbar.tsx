@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
@@ -51,7 +52,7 @@ const Navbar = () => {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <a href="#" className="flex flex-row items-center">
+                    <Link to="/" className="flex flex-row items-center">
                         <img
                             className="h-8 w-8"
                             src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
@@ -60,7 +61,7 @@ const Navbar = () => {
                         <span className="ml-2 text-white font-bold">
                             CVPD Undiksha
                         </span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex lg:hidden">
                     <button
@@ -73,12 +74,12 @@ const Navbar = () => {
                     </button>
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
-                    <a
-                        href="#"
+                    <Link
+                        to="/"
                         className="text-sm font-semibold leading-6 text-white"
                     >
-                        Dashboard
-                    </a>
+                        Introduction
+                    </Link>
 
                     <Popover className="relative">
                         <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
@@ -112,13 +113,13 @@ const Navbar = () => {
                                                 />
                                             </div>
                                             <div className="flex-auto">
-                                                <a
-                                                    href={item.href}
+                                                <Link
+                                                    to={item.href}
                                                     className="block font-semibold text-gray-900"
                                                 >
                                                     {item.name}
                                                     <span className="absolute inset-0" />
-                                                </a>
+                                                </Link>
                                                 <p className="mt-1 text-gray-600">
                                                     {item.description}
                                                 </p>
@@ -130,21 +131,21 @@ const Navbar = () => {
                         </Transition>
                     </Popover>
 
-                    <a
-                        href="#"
+                    <Link
+                        to="task"
                         className="text-sm font-semibold leading-6 text-white"
                     >
-                        Quiz
-                    </a>
-                    <a
-                        href="#"
+                        Task
+                    </Link>
+                    <Link
+                        to="/about"
                         className="text-sm font-semibold leading-6 text-white"
                     >
                         About
-                    </a>
+                    </Link>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                         <a
                             href="https://opmx-preview.web.app/"
                             target="_blank"
@@ -164,7 +165,7 @@ const Navbar = () => {
                 <div className="fixed inset-0 z-10" />
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="flex flex-row items-center">
+                        <Link to="/" className="flex flex-row items-center">
                             <img
                                 className="h-8 w-8"
                                 src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
@@ -173,7 +174,7 @@ const Navbar = () => {
                             <span className="ml-2 text-gray-900 font-bold">
                                 CVPD Undiksha
                             </span>
-                        </a>
+                        </Link>
                         <button
                             type="button"
                             className="-m-2.5 rounded-md pr-3 text-gray-700"
@@ -186,12 +187,12 @@ const Navbar = () => {
                     <div className="mt-6 flow-root">
                         <div className="-my-3 divide-y">
                             <div className="space-y-2 py-6">
-                                <a
-                                    href="#"
+                                <Link
+                                    to="/"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                 >
-                                    Dashboard
-                                </a>
+                                    Introduction
+                                </Link>
                                 <Disclosure as="div" className="-mx-3">
                                     {({ open }) => (
                                         <>
@@ -223,21 +224,21 @@ const Navbar = () => {
                                     )}
                                 </Disclosure>
 
-                                <a
-                                    href="#"
+                                <Link
+                                    to="task"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                 >
-                                    Quiz
-                                </a>
-                                <a
-                                    href="#"
+                                    Task
+                                </Link>
+                                <Link
+                                    to="/about"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                 >
                                     About
-                                </a>
+                                </Link>
                             </div>
                             <div className="py-6 text-right">
-                                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded">
+                                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">
                                     <a
                                         href="https://opmx-preview.web.app/"
                                         target="_blank"
