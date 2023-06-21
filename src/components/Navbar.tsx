@@ -44,7 +44,9 @@ const classNames = (...classes) => {
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+    const handleMenuClick = () => {
+        setMobileMenuOpen(false);
+    };
     return (
         <header className="bg-blue-900">
             <nav
@@ -190,6 +192,7 @@ const Navbar = () => {
                                 <Link
                                     to="/"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
+                                    onClick={handleMenuClick}
                                 >
                                     Introduction
                                 </Link>
@@ -211,6 +214,9 @@ const Navbar = () => {
                                             <Disclosure.Panel className="mt-2 space-y-2">
                                                 {[...module].map((item) => (
                                                     <Disclosure.Button
+                                                        onClick={
+                                                            handleMenuClick
+                                                        }
                                                         key={item.name}
                                                         as="a"
                                                         href={item.href}
@@ -227,18 +233,23 @@ const Navbar = () => {
                                 <Link
                                     to="task"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
+                                    onClick={handleMenuClick}
                                 >
                                     Task
                                 </Link>
                                 <Link
                                     to="/about"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
+                                    onClick={handleMenuClick}
                                 >
                                     About
                                 </Link>
                             </div>
                             <div className="py-6 text-right">
-                                <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg">
+                                <button
+                                    onClick={handleMenuClick}
+                                    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg"
+                                >
                                     <a
                                         href="https://opmx-preview.web.app/"
                                         target="_blank"

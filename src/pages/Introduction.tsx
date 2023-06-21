@@ -7,7 +7,7 @@ const App = () => {
         <>
             <section className="bg-white">
                 <div className="mt-8 mb-8 px-4 mx-auto lg:m-8">
-                    <div className="mx-auto max-w-screen-2xl mb-8">
+                    <div className="mx-auto max-w-screen-xl mb-8">
                         <h1 className="mb-2 text-center text-xl lg:text-2xl font-bold text-gray-900">
                             SOCIO-SCIENTIFIC ISSUE
                         </h1>
@@ -54,7 +54,7 @@ const App = () => {
                             development is examined.
                         </p>
                     </div>
-                    <div className="mx-auto max-w-screen-2xl grid gap-6 lg:grid-cols-4">
+                    <div className="mx-auto max-w-screen-xl grid gap-6 lg:grid-cols-4">
                         <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                             <div className="flex justify-between items-center mb-5 text-gray-500">
                                 <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
@@ -96,7 +96,7 @@ const App = () => {
                                     Section 2
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     ENGAGE WITH THREE-DIMENSIONAL LEARNING
                                 </Link>
@@ -132,7 +132,7 @@ const App = () => {
                                     Section 3
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease
                                     in Citrus Plantation
@@ -168,7 +168,7 @@ const App = () => {
                                     Section 4
                                 </span>
                             </div>
-                            <h2 className="mb-2 text-xl font-bold text-gray-900 uppercase">
+                            <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
                                 <Link to="#">
                                     SUSTAINABLE DEVELOPMENT THROUGH Integrated
                                     Management of Healthy Citrus
