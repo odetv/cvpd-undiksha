@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PageHandler() {
     return (
-        <section className="grid max-w-screen-full place-items-center bg-indigo-50 px-6 py-32 lg:px-8 mx-auto">
+        <section className="grid max-w-screen-full place-items-center bg-indigo-50 px-6 py-44 lg:px-8 mx-auto">
             <div className="text-center">
                 <p className="text-lg font-semibold text-indigo-600">404</p>
                 <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
@@ -18,9 +18,15 @@ export default function PageHandler() {
                     >
                         Halaman Utama
                     </a>
-                    <a href="#" className="text-sm font-semibold text-gray-900">
-                        Bantuan <span aria-hidden="true">&rarr;</span>
-                    </a>
+                    <div className="flex items-center gap-2">
+                        <a
+                            href="#"
+                            className="text-sm font-semibold text-gray-900"
+                        >
+                            Bantuan
+                        </a>
+                        <span aria-hidden="true">&rarr;</span>
+                    </div>
                 </div>
             </div>
         </section>
