@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ImageFigure6 from "../../assets/images/section1/Figure6.jpg";
+import ImageFigure7v1 from "../../assets/images/section1/Figure7-1.jpg";
+import ImageFigure7v2 from "../../assets/images/section1/Figure7-2.jpg";
 
 const S1P6 = () => {
     return (
@@ -24,9 +27,9 @@ const S1P6 = () => {
                     problems in Citrus plantation in Bali which affect the
                     quantity and quality of this fruit.
                 </p>
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure6} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 6
                         </h1>
@@ -46,17 +49,17 @@ const S1P6 = () => {
                     thicker than the healthy leaves and smaller, while the
                     fruits become small and hard (Figure 7).
                 </p>
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure7v1} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 7
                         </h1>
                     </div>
                 </div>
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure7v2} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 7
                         </h1>

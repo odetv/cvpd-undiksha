@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ImageFigure4 from "../../assets/images/section1/Figure4.jpg";
+import ImageFigure5 from "../../assets/images/section1/Figure5.jpg";
 
 const S1P5 = () => {
     return (
@@ -30,9 +32,9 @@ const S1P5 = () => {
                     citrus industry has developed rapidly, becoming prominent
                     among food industries (Izquierdo et al., 2013).
                 </p>
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure4} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 4
                         </h1>
@@ -47,9 +49,9 @@ const S1P5 = () => {
                     every Balinese ceremony (Figure 5).
                 </p>
 
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure5} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 5
                         </h1>

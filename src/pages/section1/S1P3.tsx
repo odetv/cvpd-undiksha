@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ImageFigure3 from "../../assets/images/section1/Figure3.jpg";
 
 const S1P3 = () => {
     return (
@@ -38,9 +39,9 @@ const S1P3 = () => {
                     citri as a vector insect and the presence of a source of
                     inoculum affect how CVPD spreads in the wild.
                 </p>
-                <div className="mx-auto relative w-10/12 sm:w-[500px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
-                    <img src="https://www.kindacode.com/wp-content/uploads/2022/06/big-boss.jpeg" />
-                    <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
+                <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <img className="w-full" src={ImageFigure3} />
+                    <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                         <h1 className="text-base text-white font-bold text-center">
                             Figure 3
                         </h1>
