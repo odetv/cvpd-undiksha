@@ -45,7 +45,7 @@ const S1P1 = () => {
                     <div className="indent-8 font-light text-justify text-gray-500 text-base">
                         {value.content2}
                     </div>
-                    <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure1} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -56,7 +56,7 @@ const S1P1 = () => {
                     <div className="indent-8 font-light text-justify text-gray-500 text-base">
                         {value.content3}
                     </div>
-                    <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure2} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">

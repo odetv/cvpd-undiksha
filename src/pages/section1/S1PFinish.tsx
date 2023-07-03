@@ -23,7 +23,7 @@ const S1PFinish = () => {
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
                 >
-                    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
+                    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-28 lg:px-8">
                         <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
                         <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
                         <div className="mx-auto max-w-2xl lg:max-w-4xl">
@@ -40,6 +40,12 @@ const S1PFinish = () => {
                                     <p>{value.subtitle}</p>
                                 </blockquote>
                             </figure>
+                            <div className="flex justify-center pt-5">
+                                <span className="relative flex h-5 w-5">
+                                    <span className="animate-ping absolute h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                                    <span className="relative rounded-full h-5 w-5 bg-green-500"></span>
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">

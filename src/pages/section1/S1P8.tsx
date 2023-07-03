@@ -21,7 +21,7 @@ const ContentS1P8 = [
 
 const S1P8 = () => {
     return (
-        <section className="bg-indigo-50 pb-20">
+        <section className="bg-indigo-50 pb-48">
             {ContentS1P8.map((value) => (
                 <div
                     key={value.id}

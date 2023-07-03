@@ -2,8 +2,8 @@ import React from "react";
 
 export default function PageHandler() {
     return (
-        <section className="grid max-w-screen-full place-items-center bg-indigo-50 px-6 py-48 lg:px-8 mx-auto">
-            <div className="text-center">
+        <section className="bg-indigo-50 pb-72">
+            <div className="grid max-w-screen-full place-items-center px-6 py-36 lg:px-8 mx-auto text-center">
                 <p className="text-lg font-semibold text-indigo-600">404</p>
                 <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                     Halaman Tidak Ditemukan

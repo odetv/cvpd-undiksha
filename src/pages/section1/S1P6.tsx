@@ -50,7 +50,7 @@ const S1P6 = () => {
                     <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
                         {value.content2}
                     </p>
-                    <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure6} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -61,7 +61,7 @@ const S1P6 = () => {
                     <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
                         {value.content3}
                     </p>
-                    <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure7v1} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -69,7 +69,7 @@ const S1P6 = () => {
                             </h1>
                         </div>
                     </div>
-                    <div className="mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure7v2} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
