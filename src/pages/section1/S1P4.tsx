@@ -43,22 +43,20 @@ const S1P4 = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
-                            id="textarea1"
+                            id="Citrus Leaf"
                             placeholder="Citrus Leaf"
                         />
                         <PersistentTextarea
-                            id="textarea2"
+                            id="Citrus Fruits"
                             placeholder="Citrus Fruits"
                         />
                     </div>
+
                     <p className="font-light text-justify text-gray-500 text-base pb-2 pt-8">
                         {value.content3}
                     </p>
                     <div className="">
-                        <PersistentTextarea
-                            id="textarea3"
-                            placeholder="Table"
-                        />
+                        <PersistentTextarea id="Table" placeholder="Table" />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">

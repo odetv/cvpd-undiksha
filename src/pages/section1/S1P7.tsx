@@ -41,19 +41,19 @@ const S1P7 = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
-                            id="textarea1"
+                            id="Strengths"
                             placeholder="Strengths"
                         />
                         <PersistentTextarea
-                            id="textarea2"
+                            id="Weaknesses"
                             placeholder="Weaknesses"
                         />
                         <PersistentTextarea
-                            id="textarea3"
+                            id="Opportunities"
                             placeholder="Opportunities"
                         />
                         <PersistentTextarea
-                            id="textarea4"
+                            id="Threats"
                             placeholder="Threats"
                         />
                     </div>
