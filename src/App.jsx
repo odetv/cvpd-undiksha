@@ -27,6 +27,11 @@ import S2P5 from "./pages/section2/S2P5";
 import S2P6 from "./pages/section2/S2P6";
 import S2PFinish from "./pages/section2/S2PFinish";
 import Section3 from "./layouts/Section3";
+import S3P1 from "./pages/section3/S3P1";
+import S3P2 from "./pages/section3/S3P2";
+import S3P3 from "./pages/section3/S3P3";
+import S3P4 from "./pages/section3/S3P4";
+import S3PFinish from "./pages/section3/S3PFinish";
 import Section4 from "./layouts/Section4";
 
 function ScrollToTop() {
@@ -68,7 +73,12 @@ const App = () => {
                 <Route path="/section2/5" element={<S2P5 />} />
                 <Route path="/section2/6" element={<S2P6 />} />
                 <Route path="/section2/finish" element={<S2PFinish />} />
-                <Route path="/section3/1" element={<Section3 />} />
+                <Route path="/section3" element={<Section3 />} />
+                <Route path="/section3/1" element={<S3P1 />} />
+                <Route path="/section3/2" element={<S3P2 />} />
+                <Route path="/section3/3" element={<S3P3 />} />
+                <Route path="/section3/4" element={<S3P4 />} />
+                <Route path="/section3/finish" element={<S3PFinish />} />
                 <Route path="/section4/1" element={<Section4 />} />
             </Routes>
             <Footer />
