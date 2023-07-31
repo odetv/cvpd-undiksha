@@ -58,7 +58,7 @@ const Home = () => {
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
-                            <Link to="">
+                            <Link to="section1">
                                 ENCOUNTER FOCAL ISSUE: How Dangerous CVPD
                                 Disease in Citrus Plantation
                             </Link>
@@ -71,7 +71,7 @@ const Home = () => {
                         </p>
                         <div className="flex justify-end items-center">
                             <Link
-                                to="/section1"
+                                to="section1"
                                 className="inline-flex items-center font-bold text-gray-900"
                             >
                                 Go
@@ -93,7 +93,7 @@ const Home = () => {
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
-                            <Link to="#">
+                            <Link to="section2">
                                 ENGAGE WITH THREE-DIMENSIONAL LEARNING
                             </Link>
                         </h2>
@@ -106,7 +106,7 @@ const Home = () => {
                         </p>
                         <div className="flex justify-end items-center">
                             <Link
-                                to="/section2"
+                                to="section2"
                                 className="inline-flex items-center font-bold text-gray-900"
                             >
                                 Go
@@ -128,7 +128,7 @@ const Home = () => {
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
-                            <Link to="#">
+                            <Link to="section3">
                                 SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in
                                 Citrus Plantation
                             </Link>
@@ -142,7 +142,7 @@ const Home = () => {
                         </p>
                         <div className="flex justify-end items-center">
                             <Link
-                                to="/section3"
+                                to="section3"
                                 className="inline-flex items-center font-bold text-gray-900"
                             >
                                 Go
@@ -164,7 +164,7 @@ const Home = () => {
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
-                            <Link to="#">
+                            <Link to="section4">
                                 SUSTAINABLE DEVELOPMENT THROUGH Integrated
                                 Management of Healthy Citrus
                             </Link>
@@ -176,7 +176,7 @@ const Home = () => {
                         </p>
                         <div className="flex justify-end items-center">
                             <Link
-                                to="/section4"
+                                to="section4"
                                 className="inline-flex items-center font-bold text-gray-900"
                             >
                                 Go

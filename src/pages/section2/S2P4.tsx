@@ -2,27 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
 
-const ContentS1P8 = [
+const ContentS2P4 = [
     {
         id: "",
-        title: "Section 1",
-        subtitle: "SUMMARY SECTION 1 ENCOUNTER FOCAL ISSUE",
-        content1: "Task 3",
+        title: "Section 2",
+        subtitle:
+            "Cause and Effect of CVPD Disease which Attack Citrus Plantation",
+        content1: "Task 2",
         content2:
-            "After learning about the first section, please make a summary based on your own understanding!",
+            "Read the text and analyzed the cause and effect of CVPD disease which attack Citrus plantation by using your own understanding.",
         labelBack: "Kembali",
         labelNext: "Selanjutnya",
-        textBack: "Task 2",
-        textNext: "Finish",
-        linkBack: "/section1/7",
-        linkNext: "/section1/finish",
+        textBack: "Cross-Cutting Concepts in Socio-Scientific Issues",
+        textNext: "Science Practice In Socio-Scientific Issues",
+        linkBack: "/section2/3",
+        linkNext: "/section2/5",
     },
 ];
 
-const S1P8 = () => {
+const S2P4 = () => {
     return (
-        <section className="bg-indigo-50 pb-48">
-            {ContentS1P8.map((value) => (
+        <section className="bg-indigo-50">
+            {ContentS2P4.map((value) => (
                 <div
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
@@ -40,12 +41,9 @@ const S1P8 = () => {
                         {value.content2}
                     </p>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea
-                            id="textarea3"
-                            placeholder="Summary"
-                        />
+                        <PersistentTextarea id="S2P4" placeholder="..." />
                     </div>
-                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
+                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-44">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">
                             <Link
                                 to={value.linkBack}
@@ -88,4 +86,4 @@ const S1P8 = () => {
         </section>
     );
 };
-export default S1P8;
+export default S2P4;

@@ -2,27 +2,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
 
-const ContentS1P8 = [
+const ContentS2P6 = [
     {
         id: "",
-        title: "Section 1",
-        subtitle: "SUMMARY SECTION 1 ENCOUNTER FOCAL ISSUE",
+        title: "Section 2",
+        subtitle: "SUMMARY SECTION 2 ENGAGE WITH THREE-DIMENSIONAL LEARNING",
         content1: "Task 3",
         content2:
-            "After learning about the first section, please make a summary based on your own understanding!",
+            "After finishing the second section, please make a summary based on your own understanding!",
         labelBack: "Kembali",
         labelNext: "Selanjutnya",
-        textBack: "Task 2",
+        textBack: "Science Practice In Socio-Scientific Issues",
         textNext: "Finish",
-        linkBack: "/section1/7",
-        linkNext: "/section1/finish",
+        linkBack: "/section2/5",
+        linkNext: "/section2/finish",
     },
 ];
 
-const S1P8 = () => {
+const S2P6 = () => {
     return (
-        <section className="bg-indigo-50 pb-48">
-            {ContentS1P8.map((value) => (
+        <section className="bg-indigo-50">
+            {ContentS2P6.map((value) => (
                 <div
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
@@ -40,12 +40,9 @@ const S1P8 = () => {
                         {value.content2}
                     </p>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea
-                            id="textarea3"
-                            placeholder="Summary"
-                        />
+                        <PersistentTextarea id="S2P4" placeholder="Summary" />
                     </div>
-                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
+                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-48">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">
                             <Link
                                 to={value.linkBack}
@@ -88,4 +85,4 @@ const S1P8 = () => {
         </section>
     );
 };
-export default S1P8;
+export default S2P6;

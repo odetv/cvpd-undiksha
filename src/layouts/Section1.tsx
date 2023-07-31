@@ -15,7 +15,7 @@ const ContentSection1 = [
         learn3: "Explain SWOT analysis regarding problematic issue in Citrus Plantation",
         labelBack: "Kembali",
         labelNext: "Selanjutnya",
-        textBack: "Introduction",
+        textBack: "Home",
         textNext: "Citrus as an Important Commodity",
         linkBack: "/",
         linkNext: "/section1/1",

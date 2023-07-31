@@ -8,7 +8,7 @@ const ContentS1PFinish = [
         subtitle: "~ Completed ~",
         labelBack: "Kembali",
         labelNext: "Selanjutnya",
-        textBack: "Introduction",
+        textBack: "Home",
         textNext: "Section 2",
         linkBack: "/",
         linkNext: "/section2",

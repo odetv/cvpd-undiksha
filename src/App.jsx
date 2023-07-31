@@ -19,6 +19,13 @@ import S1P7 from "./pages/section1/S1P7";
 import S1P8 from "./pages/section1/S1P8";
 import S1PFinish from "./pages/section1/S1PFinish";
 import Section2 from "./layouts/Section2";
+import S2P1 from "./pages/section2/S2P1";
+import S2P2 from "./pages/section2/S2P2";
+import S2P3 from "./pages/section2/S2P3";
+import S2P4 from "./pages/section2/S2P4";
+import S2P5 from "./pages/section2/S2P5";
+import S2P6 from "./pages/section2/S2P6";
+import S2PFinish from "./pages/section2/S2PFinish";
 import Section3 from "./layouts/Section3";
 import Section4 from "./layouts/Section4";
 
@@ -53,7 +60,14 @@ const App = () => {
                 <Route path="/section1/7" element={<S1P7 />} />
                 <Route path="/section1/8" element={<S1P8 />} />
                 <Route path="/section1/finish" element={<S1PFinish />} />
-                <Route path="/section2/1" element={<Section2 />} />
+                <Route path="/section2" element={<Section2 />} />
+                <Route path="/section2/1" element={<S2P1 />} />
+                <Route path="/section2/2" element={<S2P2 />} />
+                <Route path="/section2/3" element={<S2P3 />} />
+                <Route path="/section2/4" element={<S2P4 />} />
+                <Route path="/section2/5" element={<S2P5 />} />
+                <Route path="/section2/6" element={<S2P6 />} />
+                <Route path="/section2/finish" element={<S2PFinish />} />
                 <Route path="/section3/1" element={<Section3 />} />
                 <Route path="/section4/1" element={<Section4 />} />
             </Routes>

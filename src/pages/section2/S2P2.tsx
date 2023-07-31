@@ -2,27 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
 
-const ContentS1P8 = [
+const ContentS2P2 = [
     {
         id: "",
-        title: "Section 1",
-        subtitle: "SUMMARY SECTION 1 ENCOUNTER FOCAL ISSUE",
-        content1: "Task 3",
+        title: "Section 2",
+        subtitle:
+            "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
+        content1: "Task 1",
         content2:
-            "After learning about the first section, please make a summary based on your own understanding!",
+            "After having insight of disciplinary core ideas (DCI), find out another DCI of SSI: CVPD Disease in Citrus Plantation! Explain your answer below!",
         labelBack: "Kembali",
         labelNext: "Selanjutnya",
-        textBack: "Task 2",
-        textNext: "Finish",
-        linkBack: "/section1/7",
-        linkNext: "/section1/finish",
+        textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
+        textNext: "Cross-Cutting Concepts in Socio-Scientific Issues",
+        linkBack: "/section2/1",
+        linkNext: "/section2/3",
     },
 ];
 
-const S1P8 = () => {
+const S2P2 = () => {
     return (
-        <section className="bg-indigo-50 pb-48">
-            {ContentS1P8.map((value) => (
+        <section className="bg-indigo-50">
+            {ContentS2P2.map((value) => (
                 <div
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
@@ -41,8 +42,20 @@ const S1P8 = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
-                            id="textarea3"
-                            placeholder="Summary"
+                            id="Physical Sciences"
+                            placeholder="Physical Sciences"
+                        />
+                        <PersistentTextarea
+                            id="Life Sciences"
+                            placeholder="Life Sciences"
+                        />
+                        <PersistentTextarea
+                            id="Earth and Space"
+                            placeholder="Earth and Space"
+                        />
+                        <PersistentTextarea
+                            id="Engineering, Technology, Application"
+                            placeholder="Engineering, Technology, Application"
                         />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
@@ -88,4 +101,4 @@ const S1P8 = () => {
         </section>
     );
 };
-export default S1P8;
+export default S2P2;
