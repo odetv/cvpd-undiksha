@@ -80,13 +80,13 @@ const S2P3 = () => {
                     <div className="font-light text-justify text-gray-500 text-base">
                         {value.content9}
                     </div>
-                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-3">
+                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content10}
                     </h1>
                     <div className="indent-8 font-light text-justify text-gray-500 text-base mb-3">
                         {value.content11}
                     </div>
-                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500">
+                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content12}
                     </h1>
                     <div className="indent-8 font-light text-justify text-gray-500 text-base mb-3">
