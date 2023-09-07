@@ -11,8 +11,8 @@ const ContentS4P2 = [
         content1: "Task 2",
         content2:
             "Based on your knowledge on sustainable development and Citrus nobilis Organic Farm Management, analyze and evaluate how far Integrated Management of  Healthy Citrus relates to sustainable development!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Task 1",
         textNext: "Task 3",
         linkBack: "/section4/1",

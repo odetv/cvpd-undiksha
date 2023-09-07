@@ -11,8 +11,8 @@ const ContentS4P3 = [
         content1: "Task 3",
         content2:
             "After studying this fourth section, please make a summary based on your own understanding!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Task 2",
         textNext: "Finish",
         linkBack: "/section4/2",

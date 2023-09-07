@@ -26,8 +26,8 @@ const ContentS2P5 = [
             "7.	Engaging in Argument from Evidence – Argumentation is the process by which explanations and solutions are reached.",
         content10:
             "8.	Obtaining, Evaluating, and Communicating Information – Scientists must be able to communicate clearly and persuasively the ideas and methods they generate. Critiquing and communicating ideas individually and in groups are critical professional activities.",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Task 2",
         textNext: "Task 3",
         linkBack: "/section2/4",

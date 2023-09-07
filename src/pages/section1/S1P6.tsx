@@ -21,8 +21,8 @@ const ContentS1P6 = [
             "Figure 7: Symptoms of CVPD attack on citrus plant leaves",
         labelFigure7v2:
             "Figure 7: Symptoms of CVPD attack on citrus plant leaves",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Citrus as Largest Crops in The World",
         textNext: "Task 2",
         linkBack: "/section1/5",

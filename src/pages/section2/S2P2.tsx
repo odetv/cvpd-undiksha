@@ -11,8 +11,8 @@ const ContentS2P2 = [
         content1: "Task 1",
         content2:
             "After having insight of disciplinary core ideas (DCI), find out another DCI of SSI: CVPD Disease in Citrus Plantation! Explain your answer below!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
         textNext: "Cross-Cutting Concepts in Socio-Scientific Issues",
         linkBack: "/section2/1",

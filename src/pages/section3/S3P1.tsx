@@ -42,8 +42,8 @@ const ContentS3P1 = [
         labelFigure8: "Figure 8: Citrus Farm in Kintamani",
         labelFigure9:
             "Figure 9: Placing yellow sat turn trap for monitoring vector",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack:
             "SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
         textNext: "Task 1",

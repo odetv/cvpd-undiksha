@@ -18,8 +18,8 @@ const ContentS2P1 = [
             "Psyllid Diapohorina Citri Kuw is a transmitting insect or vector for CVPD that accelerates the spread of this disease in the field. A CVPD vector containing the pathogen L. asiaticus has been shown to transmit this systemic disease to healthy citrus trees. If there are no citrus trees infected by CVPD in the orchard due to disease-free citrus seedlings, the presence of transmitting insects is just an ordinary pest that damages shoot buds or young shoots.",
         content6:
             "D. citri can be effectively controlled using stem wiping or painting methods with a systemic insecticide containing the active ingredient imidacloprid or other systemic pesticides, the efficacy of which must be determined beforehand. The stem painting can be repeated every 2–4 weeks. It can also be done by sprinkling an insecticide solution containing the active ingredient tiametoksam (5 grams per liter) at a rate of 0.5 liters per tree (4 years old) under the plant canopy or by spraying with insecticide when plants form buds or shoots.",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "ENGAGE WITH THREE-DIMENSIONAL LEARNING",
         textNext: "Task 1",
         linkBack: "/section2",

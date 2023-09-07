@@ -13,8 +13,8 @@ const ContentSection1 = [
         learn1: "Explain CVPD that attack Citrus production",
         learn2: "Explain the effects of CVPD in Citrus Plantation",
         learn3: "Explain SWOT analysis regarding problematic issue in Citrus Plantation",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Home",
         textNext: "Citrus as an Important Commodity",
         linkBack: "/",
@@ -24,7 +24,7 @@ const ContentSection1 = [
 
 const Section1 = () => {
     return (
-        <section className="bg-indigo-50 pb-52">
+        <section className="bg-indigo-50 pb-48">
             {ContentSection1.map((value) => (
                 <div
                     key={value.id}

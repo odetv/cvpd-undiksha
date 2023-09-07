@@ -15,8 +15,8 @@ const ContentS1P1 = [
             "With high demand for citrus consumption, this fruit plantation will be very profitable, increasing people's income, job opportunities, and national export foreign exchange. In terms of international trade, Indonesia has higher import than export values. Among South East Asian countries, Indonesia was considered the second largest citrus importer after Malaysia, with an increasing trend of up to 11% per year (Taufiq, et al., 2019 ). Citrus is also an important horticultural commodity that is growing rapidly in Bali. According to Alitawan (2017), Kintamani, Bangli is the center of the highest citrus production in Bali, with citrus land areas increasing in 2015. Many local farmers in Kintamani are converting land they have traditionally used to harvest corn into citrus-producing plots. They divert corn crop land into land where they plant citrus to sell in the local market, to meet the demands of tourists, the local society, and ritual purposes (Figure 2).",
         labelFigure1: "Figure 1: Nutrients in Citrus",
         labelFigure2: "Figure 2: Citrus use as a ritual",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "ENCOUNTER FOCAL ISSUE",
         textNext:
             "Citrus Vein Phloem Degeneration that Attack Citrus Production",

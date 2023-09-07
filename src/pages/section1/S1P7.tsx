@@ -11,8 +11,8 @@ const ContentS1P7 = [
         content1: "Task 2",
         content2:
             "Read the text and make a SWOT analysis with micro (individual), meso (society) and macro (society as whole) analysis of problematic Issue in Citrus Plantation. You can complete your explanation in diagram below!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Problems in Citrus Plantations",
         textNext: "Task 3",
         linkBack: "/section1/6",

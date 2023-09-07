@@ -10,8 +10,8 @@ const ContentS2P6 = [
         content1: "Task 3",
         content2:
             "After finishing the second section, please make a summary based on your own understanding!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Science Practice In Socio-Scientific Issues",
         textNext: "Finish",
         linkBack: "/section2/5",

@@ -30,8 +30,8 @@ const ContentS2P3 = [
         content12: "Effects for Citrus",
         content13:
             "Disease symptoms include yellowing leaves, dark green leaf bones, and leaves that are more rigid and thicker than healthy leaves and smaller (Mead, 1998; Knapp et al., 1999). while the fruit becomes small and hard (Wirawan et al., 1998). CVPD-affected plants' leaves undergo chlorosis; the symptoms resemble nitrogen deficiency, zinc, manganese, and iron deficiency (Tirtawidjaja, 1983).",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
         textNext: "Task 2",
         linkBack: "/section2/2",

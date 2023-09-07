@@ -176,7 +176,7 @@ const Navbar = () => {
                             target="_blank"
                             className="text-sm font-semibold leading-6 text-white"
                         >
-                            Tim Malang <span aria-hidden="true">&rarr;</span>
+                            Malang Team <span aria-hidden="true">&rarr;</span>
                         </a>
                     </button>
                 </div>
@@ -295,7 +295,7 @@ const Navbar = () => {
                                         target="_blank"
                                         className="block rounded-lg text-sm leading-7 text-white"
                                     >
-                                        Tim Malang{" "}
+                                        Malang Team{" "}
                                         <span aria-hidden="true">&rarr;</span>
                                     </a>
                                 </button>

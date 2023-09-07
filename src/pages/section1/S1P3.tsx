@@ -15,8 +15,8 @@ const ContentS1P3 = [
         content4:
             "Based on a 2015 study, it was found that 98% of citrus plants in Buleleng Regency and 60% in Karangasem Regency were infected with CVPD. Due to the CVPD outbreak, a largescale eradication was carried out until it reached almost 100% in 1990. It's done specifically to siem oranges and tangerines caused by an infectious CVPD (Citrus Vein Phloem Degeneration) disease caused by the bacteria Liberobacter asiaticum, which is common in citrus crops in the field, so that the citrus fruit breaks into small pieces and changes color, which is not good (Wirawan et al., 2014). In addition, it is reported that this disease continues to damage citrus crops in various plantation regions in Kintamani, Bangli, Indonesia.",
         labelFigure3: "Figure 3: The symptoms of CVPD disease in Citrus leaf",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack:
             "Citrus Vein Phloem Degeneration that Attack Citrus Production",
         textNext: "Task 1",

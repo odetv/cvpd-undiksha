@@ -10,8 +10,8 @@ const ContentS3P2 = [
         content1: "Task 2",
         content2:
             "Now that you know about the Citrus nobilis Organic Farm Management, please analyze and evaluate Integrated Management of Healthy Citrus using SWOT analysis!",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Task 1",
         textNext: "Task 3",
         linkBack: "/section3/2",

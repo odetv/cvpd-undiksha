@@ -11,8 +11,8 @@ const ContentS2P4 = [
         content1: "Task 2",
         content2:
             "Read the text and analyzed the cause and effect of CVPD disease which attack Citrus plantation by using your own understanding.",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Cross-Cutting Concepts in Socio-Scientific Issues",
         textNext: "Science Practice In Socio-Scientific Issues",
         linkBack: "/section2/3",

@@ -12,8 +12,8 @@ const ContentSection2 = [
         learn1: "Explain the disciplinary core ideas in this socio-scientific issues",
         learn2: "Explain cross cutting concept: CVPD Disease at different Citrus Plantation in Kintamani, cause and effect CVPD Disease in Citrus Plantation",
         learn3: "Analyze and interpret data as a science practice dimension related to CVPD Disease in Citrus Plantation",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Section 1",
         textNext: "Disciplinary Core Ideas In Socio-Scientific Issues",
         linkBack: "/section1",
@@ -23,7 +23,7 @@ const ContentSection2 = [
 
 const Section2 = () => {
     return (
-        <section className="bg-indigo-50 pb-52">
+        <section className="bg-indigo-50 pb-40">
             {ContentSection2.map((value) => (
                 <div
                     key={value.id}

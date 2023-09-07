@@ -12,8 +12,8 @@ const ContentSection3 = [
         content2: "Learning Objectives",
         learn1: "Explain the Integrated Management of Healthy Citrus",
         learn2: "Analyze and evaluate Integrated Management of Healthy Citrus",
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "Section 2",
         textNext: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
         linkBack: "/section2",
@@ -75,7 +75,7 @@ const Section3 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
+                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-24">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">
                             <Link
                                 to={value.linkBack}

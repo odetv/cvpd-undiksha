@@ -10,8 +10,8 @@ const ContentS3P2 = [
         content1: "Task 1",
         content2:
             'Please share your thoughts on what "integrated management of healthy citrus" entails after reading the text. Is there any difference when farmers use this method on citrus plantations?',
-        labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelBack: "Back",
+        labelNext: "Next",
         textBack: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
         textNext: "Task 2",
         linkBack: "/section3/1",

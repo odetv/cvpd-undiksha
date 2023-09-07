@@ -30,7 +30,7 @@ const ContentS4P1 = [
         content12: "",
         content13: "",
         labelBack: "Kembali",
-        labelNext: "Selanjutnya",
+        labelNext: "Next",
         textBack:
             "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
         textNext: "Task 2",
