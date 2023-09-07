@@ -98,11 +98,13 @@ const S4P1 = () => {
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea id="S3P4" placeholder="..." />
                     </div>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[400px] xl:w-[400px] lg:w-[400px] mt-16 mb-6 shadow-lg">
-                        <img className="w-full" src={ImagePrinciple} />
-                    </div>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[700px] xl:w-[700px] lg:w-[700px] mt-6 mb-6 shadow-lg">
-                        <img className="w-full" src={ImageSDG} />
+                    <div className="xl:flex lg:flex md:flex sm:flex flex-row gap-3 items-center mt-6 mb-6">
+                        <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[400px] xl:w-[400px] lg:w-[400px] shadow-lg">
+                            <img className="w-full" src={ImagePrinciple} />
+                        </div>
+                        <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[700px] xl:w-[700px] lg:w-[700px] shadow-lg">
+                            <img className="w-full" src={ImageSDG} />
+                        </div>
                     </div>
                     <div className="indent-8 font-light text-justify text-gray-500 text-base mb-3">
                         {value.content11}

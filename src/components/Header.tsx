@@ -8,6 +8,8 @@ import {
     XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import id from "../assets/images/header/id.png";
+import en from "../assets/images/header/en.png";
 
 const module = [
     {
@@ -46,6 +48,10 @@ const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const handleMenuClick = () => {
         setMobileMenuOpen(false);
+    };
+    const [isTranslatedToID, setIsTranslatedToID] = useState(false);
+    const handleTranslate = () => {
+        setIsTranslatedToID(!isTranslatedToID);
     };
     return (
         <header className="bg-blue-900">
@@ -133,12 +139,12 @@ const Navbar = () => {
                         </Transition>
                     </Popover>
 
-                    <Link
+                    {/* <Link
                         to="/task"
                         className="text-sm font-semibold leading-6 text-white"
                     >
                         Task
-                    </Link>
+                    </Link> */}
                     <Link
                         to="/about"
                         className="text-sm font-semibold leading-6 text-white"
@@ -146,7 +152,24 @@ const Navbar = () => {
                         About
                     </Link>
                 </Popover.Group>
-                <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-3">
+                    <button
+                        className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer"
+                        onClick={handleTranslate}
+                    >
+                        <div className="text-xl" />
+                        {isTranslatedToID ? (
+                            <div className="flex gap-1 items-center">
+                                <img src={id} className="w-6 h-4" />
+                                <span className="text-xs">ID</span>
+                            </div>
+                        ) : (
+                            <div className="flex gap-1 items-center">
+                                <img src={en} className="w-6 h-4" />
+                                <span className="text-xs">EN</span>
+                            </div>
+                        )}
+                    </button>
                     <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                         <a
                             href="https://opmx-preview.web.app/"
@@ -230,13 +253,13 @@ const Navbar = () => {
                                     )}
                                 </Disclosure>
 
-                                <Link
+                                {/* <Link
                                     to="task"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                     onClick={handleMenuClick}
                                 >
                                     Task
-                                </Link>
+                                </Link> */}
                                 <Link
                                     to="/about"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
@@ -245,7 +268,24 @@ const Navbar = () => {
                                     About
                                 </Link>
                             </div>
-                            <div className="py-6 text-right">
+                            <div className="py-6 text-right flex gap-3 justify-end">
+                                <button
+                                    className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer"
+                                    onClick={handleTranslate}
+                                >
+                                    <div className="text-xl" />
+                                    {isTranslatedToID ? (
+                                        <div className="flex gap-1 items-center">
+                                            <img src={id} className="w-6 h-4" />
+                                            <span className="text-xs">ID</span>
+                                        </div>
+                                    ) : (
+                                        <div className="flex gap-1 items-center">
+                                            <img src={en} className="w-6 h-4" />
+                                            <span className="text-xs">EN</span>
+                                        </div>
+                                    )}
+                                </button>
                                 <button
                                     onClick={handleMenuClick}
                                     className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg"

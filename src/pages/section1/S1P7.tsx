@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
+import Task2 from "../../assets/images/section1/Task2.png";
 
 const ContentS1P7 = [
     {
@@ -39,6 +40,7 @@ const S1P7 = () => {
                     <p className="font-light text-justify text-gray-500 text-base pb-2">
                         {value.content2}
                     </p>
+                    <img className="pb-4" src={Task2} />
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
                             id="Strengths"
