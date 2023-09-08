@@ -40,24 +40,26 @@ const S1P7 = () => {
                     <p className="font-light text-justify text-gray-500 text-base pb-2">
                         {value.content2}
                     </p>
-                    <img className="pb-4" src={Task2} />
-                    <div className="flex flex-col gap-3">
-                        <PersistentTextarea
-                            id="Strengths"
-                            placeholder="Strengths"
-                        />
-                        <PersistentTextarea
-                            id="Weaknesses"
-                            placeholder="Weaknesses"
-                        />
-                        <PersistentTextarea
-                            id="Opportunities"
-                            placeholder="Opportunities"
-                        />
-                        <PersistentTextarea
-                            id="Threats"
-                            placeholder="Threats"
-                        />
+                    <div className="">
+                        <img className="pb-4" src={Task2} />
+                        <div className="flex flex-col gap-3">
+                            <PersistentTextarea
+                                id="Strengths"
+                                placeholder="Fill Strengths"
+                            />
+                            <PersistentTextarea
+                                id="Weaknesses"
+                                placeholder="Fill Weaknesses"
+                            />
+                            <PersistentTextarea
+                                id="Opportunities"
+                                placeholder="Fill Opportunities"
+                            />
+                            <PersistentTextarea
+                                id="Threats"
+                                placeholder="Fill Threats"
+                            />
+                        </div>
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">

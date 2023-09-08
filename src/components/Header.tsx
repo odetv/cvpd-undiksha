@@ -138,13 +138,6 @@ const Navbar = () => {
                             </Popover.Panel>
                         </Transition>
                     </Popover>
-
-                    {/* <Link
-                        to="/task"
-                        className="text-sm font-semibold leading-6 text-white"
-                    >
-                        Task
-                    </Link> */}
                     <Link
                         to="/about"
                         className="text-sm font-semibold leading-6 text-white"
@@ -252,14 +245,6 @@ const Navbar = () => {
                                         </>
                                     )}
                                 </Disclosure>
-
-                                {/* <Link
-                                    to="task"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
-                                    onClick={handleMenuClick}
-                                >
-                                    Task
-                                </Link> */}
                                 <Link
                                     to="/about"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"

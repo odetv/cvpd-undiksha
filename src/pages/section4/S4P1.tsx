@@ -4,6 +4,7 @@ import ImageArticle from "../../assets/images/section4/Articlevisit.jpg";
 import ImageSDG from "../../assets/images/section4/SDG.jpg";
 import ImagePrinciple from "../../assets/images/section4/Principle.jpg";
 import PersistentTextarea from "../../components/PersistentTextarea";
+import SustainableDiagram from "../../components/SustainableDiagram";
 
 const ContentS4P1 = [
     {
@@ -83,20 +84,40 @@ const S4P1 = () => {
                         {value.content8}
                     </h1>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P4" placeholder="..." />
+                        <PersistentTextarea id="S3P41" placeholder="..." />
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content9}
                     </h1>
-                    <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P4" placeholder="..." />
+                    <div className="sm:flex lg:flex md:flex xl:flex gap-3 items-center">
+                        <div className="mb-3 border border-blue-600 p-3 rounded-xl">
+                            <SustainableDiagram />
+                        </div>
+                        <div className="">
+                            <PersistentTextarea
+                                id="S3P42"
+                                placeholder="Fill A"
+                            />
+                        </div>
+                        <div className="">
+                            <PersistentTextarea
+                                id="S3P43"
+                                placeholder="Fill B"
+                            />
+                        </div>
+                        <div className="">
+                            <PersistentTextarea
+                                id="S3P44"
+                                placeholder="Fill C"
+                            />
+                        </div>
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content10}
                     </h1>
 
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P4" placeholder="..." />
+                        <PersistentTextarea id="S3P45" placeholder="..." />
                     </div>
                     <div className="xl:flex lg:flex md:flex sm:flex flex-row gap-3 items-center mt-6 mb-6">
                         <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[400px] xl:w-[400px] lg:w-[400px] shadow-lg">

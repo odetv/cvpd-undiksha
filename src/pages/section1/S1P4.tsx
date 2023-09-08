@@ -31,7 +31,7 @@ const ContentS1P4 = [
 ];
 
 const S1P4 = () => {
-    const numRows = 3;
+    const numRows = 4;
     const numCols = 4;
     const initialData = Array.from({ length: numRows }, () =>
         Array(numCols).fill("")
