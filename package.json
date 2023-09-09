@@ -13,6 +13,7 @@
     "dependencies": {
         "@ckeditor/ckeditor5-build-classic": "^38.1.0",
         "@ckeditor/ckeditor5-react": "^6.1.0",
+        "@google-cloud/translate": "^8.0.2",
         "@headlessui/react": "^1.7.15",
         "@material-tailwind/react": "^2.0.3",
         "axios": "^1.4.0",

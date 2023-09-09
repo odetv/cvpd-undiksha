@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentS2P5 = [
     {
         id: "",
-        title: "Section 2",
+        title: "Section II",
         subtitle:
             "Science Practice In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
         content1: "Science Practice",

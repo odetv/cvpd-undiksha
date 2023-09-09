@@ -5,9 +5,9 @@ import PersistentTextarea from "../../components/PersistentTextarea";
 const ContentS4P3 = [
     {
         id: "",
-        title: "Section 4",
+        title: "Section IV",
         subtitle:
-            "SUMMARY SECTION 4 SUSTAINABLE DEVELOPMENT THROUGH CITRUS NOBILIS ORGANIC-FARM MANAGEMENT",
+            "SUMMARY SECTION IV SUSTAINABLE DEVELOPMENT THROUGH CITRUS NOBILIS ORGANIC-FARM MANAGEMENT",
         content1: "Task 3",
         content2:
             "After studying this fourth section, please make a summary based on your own understanding!",

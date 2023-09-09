@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentSection4 = [
     {
         id: "",
-        title: "Section 4",
+        title: "Section IV",
         subtitle:
             "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
         content1:
@@ -14,7 +14,7 @@ const ContentSection4 = [
         learn2: "Analyze and evaluate how far Integrated Management of Healthy Citrus relates to sustainable development",
         labelBack: "Back",
         labelNext: "Next",
-        textBack: "Section 3",
+        textBack: "Section III",
         textNext: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
         linkBack: "/section3",
         linkNext: "/section4/1",

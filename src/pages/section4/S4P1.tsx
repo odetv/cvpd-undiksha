@@ -9,7 +9,7 @@ import SustainableDiagram from "../../components/SustainableDiagram";
 const ContentS4P1 = [
     {
         id: "",
-        title: "Section 4",
+        title: "Section IV",
         subtitle: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
         content1: "Full article, visit:",
         content2:

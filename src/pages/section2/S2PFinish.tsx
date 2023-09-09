@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const ContentS2PFinish = [
     {
         id: "",
-        title: "Section 2: Engage With Three-Dimensional Learning",
+        title: "Section II: Engage With Three-Dimensional Learning",
         subtitle: "~ Completed ~",
         labelBack: "Back",
         labelNext: "Next",
         textBack: "Home",
-        textNext: "Section 3",
+        textNext: "Section III",
         linkBack: "/",
         linkNext: "/section3",
     },

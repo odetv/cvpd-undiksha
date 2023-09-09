@@ -6,7 +6,7 @@ import ImageFigure9 from "../../assets/images/section3/Figure9.jpg";
 const ContentS3P1 = [
     {
         id: "",
-        title: "Section 3",
+        title: "Section III",
         subtitle: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
         content1:
             "The importance of citrus fruits in the world’s economy is demonstrated by their wide-scale cultivation under tropical and sub-tropical conditions. Citrus has a huge socioeconomic and cultural impact on society as a whole. The fruit's multifold nutritional and medicinal values make it indispensible in several parts of the world, including Indonesia. Citrus production in Indonesia has fluctuated since the last decade. It cannot be denied that the CVPD (Citrus Vein Phloem Degenaration) disease attack caused damage to citrus plants in Kintamani. The CVPD attack affects nutrient deficiencies and citrus quality. The local government advised farmers to plant citrus in non-endemic areas, or else provide disease prevention strategies. Bassanezi and Gottwald (2008) reveal that it is important to implement the regional control management for the disease immediately after it is detected. Regional disease management highly affects the probability and efficacy of slowing the epidemic.",

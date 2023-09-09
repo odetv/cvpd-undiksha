@@ -7,7 +7,7 @@ import TableS1 from "../../assets/images/section1/TableS1.png";
 const ContentS1P4 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle: "Find out the symptom of CVPD in Citrus!",
         content1: "Task 1",
         content2:

@@ -5,9 +5,9 @@ import PersistentTextarea from "../../components/PersistentTextarea";
 const ContentS3P2 = [
     {
         id: "",
-        title: "Section 3",
+        title: "Section III",
         subtitle:
-            "SUMMARY SECTION 3 SYNTHESIS KEY IDEAS & PRACTICE Integrated Management of Healthy Citrus",
+            "SUMMARY SECTION III SYNTHESIS KEY IDEAS & PRACTICE Integrated Management of Healthy Citrus",
         content1: "Task 3",
         content2:
             "After learning about the third section, please make a summary based on your own understanding!",

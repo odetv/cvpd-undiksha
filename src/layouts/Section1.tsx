@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentSection1 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle:
             "ENCOUNTER FOCAL ISSUE: How Dangerous CVPD Disease in Citrus Plantation",
         content1:

@@ -6,7 +6,7 @@ import Task2 from "../../assets/images/section1/Task2.png";
 const ContentS1P7 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle: "SWOT Analysis Regarding Citrus Plantation",
         content1: "Task 2",
         content2:

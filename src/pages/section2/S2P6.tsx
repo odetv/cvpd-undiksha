@@ -5,8 +5,8 @@ import PersistentTextarea from "../../components/PersistentTextarea";
 const ContentS2P6 = [
     {
         id: "",
-        title: "Section 2",
-        subtitle: "SUMMARY SECTION 2 ENGAGE WITH THREE-DIMENSIONAL LEARNING",
+        title: "Section II",
+        subtitle: "SUMMARY SECTION II ENGAGE WITH THREE-DIMENSIONAL LEARNING",
         content1: "Task 3",
         content2:
             "After finishing the second section, please make a summary based on your own understanding!",

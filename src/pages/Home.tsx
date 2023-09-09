@@ -54,7 +54,7 @@ const Home = () => {
                     <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
-                                Section 1
+                                Section I
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
@@ -89,7 +89,7 @@ const Home = () => {
                     <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
-                                Section 2
+                                Section II
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
@@ -124,7 +124,7 @@ const Home = () => {
                     <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
-                                Section 3
+                                Section III
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">
@@ -160,7 +160,7 @@ const Home = () => {
                     <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
-                                Section 4
+                                Section IV
                             </span>
                         </div>
                         <h2 className="mb-2 text-lg font-bold text-gray-900 uppercase">

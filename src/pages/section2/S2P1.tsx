@@ -5,7 +5,7 @@ import Image1 from "../../assets/images/section2/DisciplinaryCoreIdeas.png";
 const ContentS2P1 = [
     {
         id: "",
-        title: "Section 2",
+        title: "Section II",
         subtitle:
             "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
         content1: "Disciplinary Core Ideas",

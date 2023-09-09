@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const ContentS1PFinish = [
     {
         id: "",
-        title: "Section 1: Encounter Focal Issue",
+        title: "Section I: Encounter Focal Issue",
         subtitle: "~ Completed ~",
         labelBack: "Back",
         labelNext: "Next",
         textBack: "Home",
-        textNext: "Section 2",
+        textNext: "Section II",
         linkBack: "/",
         linkNext: "/section2",
     },

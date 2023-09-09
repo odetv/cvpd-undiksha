@@ -5,7 +5,7 @@ import ImageFigure3 from "../../assets/images/section1/Figure3.jpg";
 const ContentS1P3 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle: "CVPD THAT ATTACK CITRUS PRODUCTION",
         content1: "The effects of CVPD in Citrus Plantation",
         content2:

@@ -5,7 +5,7 @@ import PersistentTextarea from "../../components/PersistentTextarea";
 const ContentS2P2 = [
     {
         id: "",
-        title: "Section 2",
+        title: "Section II",
         subtitle:
             "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
         content1: "Task 1",

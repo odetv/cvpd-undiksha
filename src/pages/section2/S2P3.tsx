@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentS2P3 = [
     {
         id: "",
-        title: "Section 2",
+        title: "Section II",
         subtitle:
             "Cross-Cutting Concepts in Socio-Scientific Issues: Pros and Cons of using Pesticides in Citrus nobilis Cultivation",
         content1: "Cross-Cutting Concepts",

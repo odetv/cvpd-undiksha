@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const ContentS3PFinish = [
     {
         id: "",
-        title: "Section 3: SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
+        title: "Section III: SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
         subtitle: "~ Completed ~",
         labelBack: "Back",
         labelNext: "Next",
         textBack: "Home",
-        textNext: "Section 4",
+        textNext: "Section IV",
         linkBack: "/",
         linkNext: "/section4",
     },

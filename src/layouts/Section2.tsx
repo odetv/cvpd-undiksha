@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentSection2 = [
     {
         id: "",
-        title: "Section 2",
+        title: "Section II",
         subtitle: "ENGAGE WITH THREE-DIMENSIONAL LEARNING",
         content1:
             "This second section will help you engage in three-dimensional learning related to CVPD disease in citrus plantations. You will discover disciplinary core ideas, cross-cutting concepts, and science practice in these socioscientific issues.",
@@ -14,7 +14,7 @@ const ContentSection2 = [
         learn3: "Analyze and interpret data as a science practice dimension related to CVPD Disease in Citrus Plantation",
         labelBack: "Back",
         labelNext: "Next",
-        textBack: "Section 1",
+        textBack: "Section I",
         textNext: "Disciplinary Core Ideas In Socio-Scientific Issues",
         linkBack: "/section1",
         linkNext: "/section2/1",

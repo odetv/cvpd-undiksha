@@ -5,7 +5,7 @@ import PersistentTextarea from "../../components/PersistentTextarea";
 const ContentS3P2 = [
     {
         id: "",
-        title: "Section 3",
+        title: "Section III",
         subtitle: "Integrated Management of Healthy Citrus",
         content1: "Task 2",
         content2:

@@ -7,7 +7,7 @@ import ImageFigure7v2 from "../../assets/images/section1/Figure7-2.jpg";
 const ContentS1P6 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle: "PROBLEMATIC ISSUE IN CITRUS PLANTATION",
         content1: "Problems in Citrus Plantation",
         content2:

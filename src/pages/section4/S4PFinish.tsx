@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContentS3PFinish = [
     {
         id: "",
-        title: "Section 4: SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
+        title: "Section IV: SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
         subtitle: "~ Completed ~",
         labelBack: "Back",
         labelNext: "Next",

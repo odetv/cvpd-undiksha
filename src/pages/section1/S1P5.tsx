@@ -6,7 +6,7 @@ import ImageFigure5 from "../../assets/images/section1/Figure5.jpg";
 const ContentS1P5 = [
     {
         id: "",
-        title: "Section 1",
+        title: "Section I",
         subtitle: "PROBLEMATIC ISSUE IN CITRUS PLANTATION",
         content1: "Citrus as Largest Crops in The World",
         content2:
