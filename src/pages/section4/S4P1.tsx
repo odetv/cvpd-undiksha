@@ -30,7 +30,7 @@ const ContentS4P1 = [
             "Education for Sustainable Development (ESD) is commonly understood as education that encourages changes in knowledge, skills, values and attitudes to enable a more sustainable and just society for all. ESD aims to empower and equip current and future generations to meet their needs using a balanced and integrated approach to the economic, social and environmental dimensions of sustainable development. There are 17 SDGs aiming to create a better world by 2030 by ending poverty, fighting inequality, and addressing the urgency of climate change. The 17 SDGs are: (1) No Poverty, (2) Zero Hunger, (3) Good Health and Well-being, (4) Quality Education, (5) Gender Equality, (6) Clean Water and Sanitation, (7) Affordable and Clean Energy, (8) Decent Work and Economic Growth, (9) Industry, Innovation and Infrastructure, (10) Reduced Inequality, (11) Sustainable Cities and Communities, (12) Responsible Consumption and Production, (13) Climate Action, (14) Life Below Water, (15) Life On Land, (16) Peace, Justice, and Strong Institutions, (17) Partnerships for the Goals.",
         content12: "",
         content13: "",
-        labelBack: "Kembali",
+        labelBack: "Back",
         labelNext: "Next",
         textBack:
             "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
