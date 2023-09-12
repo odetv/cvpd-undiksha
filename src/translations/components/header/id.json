@@ -1,0 +1,25 @@
+{
+    "1": "Halaman Utama",
+    "2": "Modul",
+    "3": "Tentang",
+    "4": "Tim Malang",
+
+    "module": [
+        {
+            "name": "Bagian I",
+            "description": "Menghadapi Masalah Fokal"
+        },
+        {
+            "name": "Bagian II",
+            "description": "Terlibat dengan Pembelajaran Tiga Dimensi"
+        },
+        {
+            "name": "Bagian III",
+            "description": "Sintesis Ide Utama dan Praktik Pengelolaan Terpadu Jeruk Sehat"
+        },
+        {
+            "name": "Bagian IV",
+            "description": "Pembangunan Berkelanjutan melalui Pengelolaan Pertanian Organik Citrus nobilis"
+        }
+    ]
+}

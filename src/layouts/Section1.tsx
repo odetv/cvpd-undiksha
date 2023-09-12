@@ -1,28 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const ContentSection1 = [
-    {
-        id: "",
-        title: "Section I",
-        subtitle:
-            "ENCOUNTER FOCAL ISSUE: How Dangerous CVPD Disease in Citrus Plantation",
-        content1:
-            "This section will explain what CVPD is and its threat to citrus plantations. You will also learn about the additional problematic aspect of citrus plantations in Bali.",
-        content2: "Learning Objectives",
-        learn1: "Explain CVPD that attack Citrus production",
-        learn2: "Explain the effects of CVPD in Citrus Plantation",
-        learn3: "Explain SWOT analysis regarding problematic issue in Citrus Plantation",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Home",
-        textNext: "Citrus as an Important Commodity",
-        linkBack: "/",
-        linkNext: "/section1/1",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const Section1 = () => {
+    const { t } = useTranslation("section1");
+    const ContentSection1 = [
+        {
+            id: "",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            learn1: t("5"),
+            learn2: t("6"),
+            learn3: t("7"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
+            linkBack: "/",
+            linkNext: "/section1/1",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50 pb-48">
             {ContentSection1.map((value) => (

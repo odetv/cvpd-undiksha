@@ -1,0 +1,25 @@
+{
+    "1": "Home",
+    "2": "Module",
+    "3": "About",
+    "4": "Malang Team",
+
+    "module": [
+        {
+            "name": "Section I",
+            "description": "Encounter Focal Issue"
+        },
+        {
+            "name": "Section II",
+            "description": "Engage with Three-Dimensional Learning"
+        },
+        {
+            "name": "Section III",
+            "description": "Synthesis Key Ideas and Practice Integrated Management of Healthy Citrus"
+        },
+        {
+            "name": "Section IV",
+            "description": "Sustainable Development through Citrus nobilis Organic-Farm Management"
+        }
+    ]
+}

@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import PageHandler from "./components/PageHandler";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Task from "./pages/Task";
 import Bibliography from "./pages/Bibliography";
 import Section1 from "./layouts/Section1";
 import S1P1 from "./pages/section1/S1P1";
@@ -57,7 +56,6 @@ const App = () => {
                 <Route path="*" element={<PageHandler />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/bibliography" element={<Bibliography />} />
-                <Route path="/task" element={<Task />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/section1" element={<Section1 />} />
                 <Route path="/section1/1" element={<S1P1 />} />

@@ -1,29 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const ContentSection2 = [
-    {
-        id: "",
-        title: "Section II",
-        subtitle: "ENGAGE WITH THREE-DIMENSIONAL LEARNING",
-        content1:
-            "This second section will help you engage in three-dimensional learning related to CVPD disease in citrus plantations. You will discover disciplinary core ideas, cross-cutting concepts, and science practice in these socioscientific issues.",
-        content2: "Learning Objectives",
-        learn1: "Explain the disciplinary core ideas in this socio-scientific issues",
-        learn2: "Explain cross cutting concept: CVPD Disease at different Citrus Plantation in Kintamani, cause and effect CVPD Disease in Citrus Plantation",
-        learn3: "Analyze and interpret data as a science practice dimension related to CVPD Disease in Citrus Plantation",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Section I",
-        textNext: "Disciplinary Core Ideas In Socio-Scientific Issues",
-        linkBack: "/section1",
-        linkNext: "/section2/1",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const Section2 = () => {
+    const { t } = useTranslation("section2");
+    const ContentSection2 = [
+        {
+            id: "",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            learn1: t("5"),
+            learn2: t("6"),
+            learn3: t("7"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
+            linkBack: "/section1",
+            linkNext: "/section2/1",
+        },
+    ];
     return (
-        <section className="bg-indigo-50 pb-40">
+        <section className="bg-indigo-50 pb-44">
             {ContentSection2.map((value) => (
                 <div
                     key={value.id}

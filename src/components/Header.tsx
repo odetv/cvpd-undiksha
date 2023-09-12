@@ -10,35 +10,9 @@ import {
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import id from "../assets/images/header/id.png";
 import en from "../assets/images/header/en.png";
-
-const module = [
-    {
-        name: "Section I",
-        description: "Encounter Focal Issue",
-        href: "/section1",
-        icon: SquaresPlusIcon,
-    },
-    {
-        name: "Section II",
-        description: "Engage with Three-Dimensional Learning",
-        href: "/section2",
-        icon: SquaresPlusIcon,
-    },
-    {
-        name: "Section III",
-        description:
-            "Synthesis Key Ideas and Practice Integrated Management of Healthy Citrus",
-        href: "/section3",
-        icon: SquaresPlusIcon,
-    },
-    {
-        name: "Section IV",
-        description:
-            "Sustainable Development through Citrus nobilis Organic-Farm Management",
-        href: "/section4",
-        icon: SquaresPlusIcon,
-    },
-];
+import sw from "../assets/images/header/switch.png";
+import { useTranslation } from "react-i18next";
+import { switchToEnglish, switchToIndonesian } from "../i18n";
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(" ");
@@ -49,14 +23,53 @@ const Navbar = () => {
     const handleMenuClick = () => {
         setMobileMenuOpen(false);
     };
+
+    const { t } = useTranslation("header");
     const [isTranslatedToID, setIsTranslatedToID] = useState(false);
-    const handleTranslate = () => {
-        setIsTranslatedToID(!isTranslatedToID);
+
+    // Fungsi untuk menangani perubahan bahasa ke bahasa Inggris (EN)
+    const handleSwitchToEnglish = () => {
+        switchToEnglish();
+        setIsTranslatedToID(false);
     };
+
+    // Fungsi untuk menangani perubahan bahasa ke bahasa Indonesia (ID)
+    const handleSwitchToIndonesian = () => {
+        switchToIndonesian();
+        setIsTranslatedToID(true);
+    };
+
+    const module = [
+        {
+            name: t("module.0.name"),
+            description: t("module.0.description"),
+            href: "/section1",
+            icon: SquaresPlusIcon,
+        },
+        {
+            name: t("module.1.name"),
+            description: t("module.1.description"),
+            href: "/section2",
+            icon: SquaresPlusIcon,
+        },
+        {
+            name: t("module.2.name"),
+            description: t("module.2.description"),
+            href: "/section3",
+            icon: SquaresPlusIcon,
+        },
+        {
+            name: t("module.3.name"),
+            description: t("module.3.description"),
+            href: "/section4",
+            icon: SquaresPlusIcon,
+        },
+    ];
+
     return (
         <header className="bg-blue-900">
             <nav
-                className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+                className="mx-auto flex items-center justify-between p-5 lg:px-8"
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
@@ -71,7 +84,30 @@ const Navbar = () => {
                         </span>
                     </a>
                 </div>
-                <div className="flex lg:hidden">
+                <div className="flex lg:hidden gap-3">
+                    <button
+                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
+                        onClick={
+                            isTranslatedToID
+                                ? handleSwitchToEnglish
+                                : handleSwitchToIndonesian
+                        }
+                    >
+                        <div className="text-xl" />
+                        {isTranslatedToID ? (
+                            <div className="flex gap-1 items-center">
+                                <img src={en} className="w-6 h-4" />
+                                <span className="text-xs">EN</span>
+                                <img src={sw} className="w-4 h-4" />
+                            </div>
+                        ) : (
+                            <div className="flex gap-1 items-center">
+                                <img src={id} className="w-6 h-4" />
+                                <span className="text-xs">ID</span>
+                                <img src={sw} className="w-4 h-4" />
+                            </div>
+                        )}
+                    </button>
                     <button
                         type="button"
                         className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
@@ -86,12 +122,12 @@ const Navbar = () => {
                         to="/"
                         className="text-sm font-semibold leading-6 text-white"
                     >
-                        Home
+                        {t("1")}
                     </Link>
 
                     <Popover className="relative">
                         <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
-                            Module
+                            {t("2")}
                             <ChevronDownIcon
                                 className="h-5 w-5 flex-none text-gray-400"
                                 aria-hidden="true"
@@ -142,34 +178,40 @@ const Navbar = () => {
                         to="/about"
                         className="text-sm font-semibold leading-6 text-white"
                     >
-                        About
+                        {t("3")}
                     </Link>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-3">
                     <button
                         className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer"
-                        onClick={handleTranslate}
+                        onClick={
+                            isTranslatedToID
+                                ? handleSwitchToEnglish
+                                : handleSwitchToIndonesian
+                        }
                     >
                         <div className="text-xl" />
                         {isTranslatedToID ? (
                             <div className="flex gap-1 items-center">
                                 <img src={en} className="w-6 h-4" />
-                                <span className="text-xs">ENG</span>
+                                <span className="text-xs">EN</span>
+                                <img src={sw} className="w-4 h-4" />
                             </div>
                         ) : (
                             <div className="flex gap-1 items-center">
                                 <img src={id} className="w-6 h-4" />
-                                <span className="text-xs">IDN</span>
+                                <span className="text-xs">ID</span>
+                                <img src={sw} className="w-4 h-4" />
                             </div>
                         )}
                     </button>
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
+                    <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-lg">
                         <a
                             href="https://opmx-preview.web.app/"
                             target="_blank"
                             className="text-sm font-semibold leading-6 text-white"
                         >
-                            Malang Team <span aria-hidden="true">&rarr;</span>
+                            {t("4")} <span aria-hidden="true">&rarr;</span>
                         </a>
                     </button>
                 </div>
@@ -181,7 +223,7 @@ const Navbar = () => {
                 onClose={setMobileMenuOpen}
             >
                 <div className="fixed inset-0 z-10" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-5 py-5 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link to="/" className="flex flex-row items-center">
                             <img
@@ -194,6 +236,29 @@ const Navbar = () => {
                             </span>
                         </Link>
                         <button
+                            className="ml-7 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
+                            onClick={
+                                isTranslatedToID
+                                    ? handleSwitchToEnglish
+                                    : handleSwitchToIndonesian
+                            }
+                        >
+                            <div className="text-xl" />
+                            {isTranslatedToID ? (
+                                <div className="flex gap-1 items-center">
+                                    <img src={en} className="w-6 h-4" />
+                                    <span className="text-xs">EN</span>
+                                    <img src={sw} className="w-4 h-4" />
+                                </div>
+                            ) : (
+                                <div className="flex gap-1 items-center">
+                                    <img src={id} className="w-6 h-4" />
+                                    <span className="text-xs">ID</span>
+                                    <img src={sw} className="w-4 h-4" />
+                                </div>
+                            )}
+                        </button>
+                        <button
                             type="button"
                             className="-m-2.5 rounded-md pr-3 text-gray-700"
                             onClick={() => setMobileMenuOpen(false)}
@@ -203,20 +268,20 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div className="mt-6 flow-root">
-                        <div className="-my-3 divide-y">
+                        <div className="-my-3 divide-y-2">
                             <div className="space-y-2 py-6">
                                 <Link
                                     to="/"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                     onClick={handleMenuClick}
                                 >
-                                    Home
+                                    {t("1")}
                                 </Link>
                                 <Disclosure as="div" className="-mx-3">
                                     {({ open }) => (
                                         <>
                                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white">
-                                                Module
+                                                {t("2")}
                                                 <ChevronDownIcon
                                                     className={classNames(
                                                         open
@@ -250,37 +315,20 @@ const Navbar = () => {
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
                                     onClick={handleMenuClick}
                                 >
-                                    About
+                                    {t("3")}
                                 </Link>
                             </div>
                             <div className="py-6 text-right flex gap-3 justify-end">
                                 <button
-                                    className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer"
-                                    onClick={handleTranslate}
-                                >
-                                    <div className="text-xl" />
-                                    {isTranslatedToID ? (
-                                        <div className="flex gap-1 items-center">
-                                            <img src={en} className="w-6 h-4" />
-                                            <span className="text-xs">ENG</span>
-                                        </div>
-                                    ) : (
-                                        <div className="flex gap-1 items-center">
-                                            <img src={id} className="w-6 h-4" />
-                                            <span className="text-xs">IDN</span>
-                                        </div>
-                                    )}
-                                </button>
-                                <button
                                     onClick={handleMenuClick}
-                                    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded-lg"
+                                    className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-3 rounded-lg"
                                 >
                                     <a
                                         href="https://opmx-preview.web.app/"
                                         target="_blank"
                                         className="block rounded-lg text-sm leading-7 text-white"
                                     >
-                                        Malang Team{" "}
+                                        {t("4")}{" "}
                                         <span aria-hidden="true">&rarr;</span>
                                     </a>
                                 </button>

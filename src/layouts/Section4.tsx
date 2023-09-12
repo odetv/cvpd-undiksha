@@ -1,29 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const ContentSection4 = [
-    {
-        id: "",
-        title: "Section IV",
-        subtitle:
-            "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
-        content1:
-            "In this fourth section you will learn the concept of sustainable development and how far Integrated Management of Healthy Citrus relates to the concept.",
-        content2: "Learning Objectives",
-        learn1: "Explain the concept of sustainable development",
-        learn2: "Analyze and evaluate how far Integrated Management of Healthy Citrus relates to sustainable development",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Section III",
-        textNext: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
-        linkBack: "/section3",
-        linkNext: "/section4/1",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const Section4 = () => {
+    const { t } = useTranslation("section4");
+    const ContentSection4 = [
+        {
+            id: "",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            learn1: t("5"),
+            learn2: t("6"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
+            linkBack: "/section3",
+            linkNext: "/section4/1",
+        },
+    ];
+
     return (
-        <section className="bg-indigo-50 pb-52">
+        <section className="bg-indigo-50 pb-56">
             {ContentSection4.map((value) => (
                 <div
                     key={value.id}

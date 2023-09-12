@@ -43,7 +43,7 @@ const S4P3 = () => {
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea id="S4P3" placeholder="..." />
                     </div>
-                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-48">
+                    <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-52">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">
                             <Link
                                 to={value.linkBack}
