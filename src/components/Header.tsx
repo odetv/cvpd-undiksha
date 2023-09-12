@@ -235,37 +235,42 @@ const Navbar = () => {
                                 CVPD Undiksha
                             </span>
                         </Link>
-                        <button
-                            className="ml-7 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
-                            onClick={
-                                isTranslatedToID
-                                    ? handleSwitchToEnglish
-                                    : handleSwitchToIndonesian
-                            }
-                        >
-                            <div className="text-xl" />
-                            {isTranslatedToID ? (
-                                <div className="flex gap-1 items-center">
-                                    <img src={en} className="w-6 h-4" />
-                                    <span className="text-xs">EN</span>
-                                    <img src={sw} className="w-4 h-4" />
-                                </div>
-                            ) : (
-                                <div className="flex gap-1 items-center">
-                                    <img src={id} className="w-6 h-4" />
-                                    <span className="text-xs">ID</span>
-                                    <img src={sw} className="w-4 h-4" />
-                                </div>
-                            )}
-                        </button>
-                        <button
-                            type="button"
-                            className="-m-2.5 rounded-md pr-3 text-gray-700"
-                            onClick={() => setMobileMenuOpen(false)}
-                        >
-                            <span className="sr-only">Close menu</span>
-                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-                        </button>
+                        <div className="flex gap-5">
+                            <button
+                                className="ml-7 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
+                                onClick={
+                                    isTranslatedToID
+                                        ? handleSwitchToEnglish
+                                        : handleSwitchToIndonesian
+                                }
+                            >
+                                <div className="text-xl" />
+                                {isTranslatedToID ? (
+                                    <div className="flex gap-1 items-center">
+                                        <img src={en} className="w-6 h-4" />
+                                        <span className="text-xs">EN</span>
+                                        <img src={sw} className="w-4 h-4" />
+                                    </div>
+                                ) : (
+                                    <div className="flex gap-1 items-center">
+                                        <img src={id} className="w-6 h-4" />
+                                        <span className="text-xs">ID</span>
+                                        <img src={sw} className="w-4 h-4" />
+                                    </div>
+                                )}
+                            </button>
+                            <button
+                                type="button"
+                                className="-m-2.5 rounded-md pr-3 text-gray-700"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                <span className="sr-only">Close menu</span>
+                                <XMarkIcon
+                                    className="h-6 w-6"
+                                    aria-hidden="true"
+                                />
+                            </button>
+                        </div>
                     </div>
                     <div className="mt-6 flow-root">
                         <div className="-my-3 divide-y-2">
