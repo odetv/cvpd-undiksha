@@ -1,26 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS4P3 = [
-    {
-        id: "",
-        title: "Section IV",
-        subtitle:
-            "SUMMARY SECTION IV SUSTAINABLE DEVELOPMENT THROUGH CITRUS NOBILIS ORGANIC-FARM MANAGEMENT",
-        content1: "Task 3",
-        content2:
-            "After studying this fourth section, please make a summary based on your own understanding!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Task 2",
-        textNext: "Finish",
-        linkBack: "/section4/2",
-        linkNext: "/section4/finish",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S4P3 = () => {
+    const { t } = useTranslation("s4p3");
+    const ContentS4P3 = [
+        {
+            id: "",
+            title: "Section IV",
+            subtitle:
+                "SUMMARY SECTION IV SUSTAINABLE DEVELOPMENT THROUGH CITRUS NOBILIS ORGANIC-FARM MANAGEMENT",
+            content1: "Task 3",
+            content2:
+                "After studying this fourth section, please make a summary based on your own understanding!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Task 2",
+            textNext: "Finish",
+            linkBack: "/section4/2",
+            linkNext: "/section4/finish",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS4P3.map((value) => (

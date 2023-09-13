@@ -1,24 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import logoundiksha from "../../assets/images/logo/logo-undiksha.png";
 
-const ContentS3PFinish = [
-    {
-        id: "",
-        title: "Section IV: SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
-        subtitle: "~ Completed ~",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Home",
-        textNext: "Restart",
-        linkBack: "/",
-        linkNext: "/section1",
-    },
-];
+const S4PFinish = () => {
+    const { t } = useTranslation("s4pfinish");
+    const ContentS4PFinish = [
+        {
+            id: "",
+            title: "Section IV: SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
+            subtitle: "~ Completed ~",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Home",
+            textNext: "Restart",
+            linkBack: "/",
+            linkNext: "/section1",
+        },
+    ];
 
-const S3PFinish = () => {
     return (
         <section className="bg-indigo-50 pb-36">
-            {ContentS3PFinish.map((value) => (
+            {ContentS4PFinish.map((value) => (
                 <div
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
@@ -29,7 +32,7 @@ const S3PFinish = () => {
                         <div className="mx-auto max-w-2xl lg:max-w-4xl">
                             <img
                                 className="mx-auto h-24"
-                                src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
+                                src={logoundiksha}
                                 alt=""
                             />
                             <figure className="mt-10">
@@ -91,4 +94,4 @@ const S3PFinish = () => {
         </section>
     );
 };
-export default S3PFinish;
+export default S4PFinish;

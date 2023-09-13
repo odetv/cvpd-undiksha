@@ -1,21 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const ContentS1PFinish = [
-    {
-        id: "",
-        title: "Section I: Encounter Focal Issue",
-        subtitle: "~ Completed ~",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Home",
-        textNext: "Section II",
-        linkBack: "/",
-        linkNext: "/section2",
-    },
-];
+import { useTranslation } from "react-i18next";
+import logoundiksha from "../../assets/images/logo/logo-undiksha.png";
 
 const S1PFinish = () => {
+    const { t } = useTranslation("s1pfinish");
+    const ContentS1PFinish = [
+        {
+            id: "",
+            title: "Section I: Encounter Focal Issue",
+            subtitle: "~ Completed ~",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Home",
+            textNext: "Section II",
+            linkBack: "/",
+            linkNext: "/section2",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50 pb-36">
             {ContentS1PFinish.map((value) => (
@@ -29,7 +32,7 @@ const S1PFinish = () => {
                         <div className="mx-auto max-w-2xl lg:max-w-4xl">
                             <img
                                 className="mx-auto h-24"
-                                src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
+                                src={logoundiksha}
                                 alt=""
                             />
                             <figure className="mt-10">

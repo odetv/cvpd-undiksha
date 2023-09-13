@@ -5,42 +5,44 @@ import ImageSDG from "../../assets/images/section4/SDG.jpg";
 import ImagePrinciple from "../../assets/images/section4/Principle.jpg";
 import PersistentTextarea from "../../components/PersistentTextarea";
 import SustainableDiagram from "../../components/SustainableDiagram";
-
-const ContentS4P1 = [
-    {
-        id: "",
-        title: "Section IV",
-        subtitle: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
-        content1: "Full article, visit:",
-        content2:
-            "https://www.iises.net/a-conceptual-review-of-the-terms-sustainable-development-and.html",
-        content3: "Task 1 :",
-        content4:
-            "After having read the article about the concept of sustainable development,",
-        content5:
-            "a. Explain the key concept of sustainable development with your own understanding.",
-        content6:
-            "b. Fill the diagram about the pillars of sustainable development and find out the example of each pillar in your surrounding.",
-        content7:
-            "c. Analyse the principle of sustainable development based on the article.",
-        content8: "The Key Concept of Sustainable Development",
-        content9: "Fill the diagram below",
-        content10: "The Principle of Sustainable Development",
-        content11:
-            "Education for Sustainable Development (ESD) is commonly understood as education that encourages changes in knowledge, skills, values and attitudes to enable a more sustainable and just society for all. ESD aims to empower and equip current and future generations to meet their needs using a balanced and integrated approach to the economic, social and environmental dimensions of sustainable development. There are 17 SDGs aiming to create a better world by 2030 by ending poverty, fighting inequality, and addressing the urgency of climate change. The 17 SDGs are: (1) No Poverty, (2) Zero Hunger, (3) Good Health and Well-being, (4) Quality Education, (5) Gender Equality, (6) Clean Water and Sanitation, (7) Affordable and Clean Energy, (8) Decent Work and Economic Growth, (9) Industry, Innovation and Infrastructure, (10) Reduced Inequality, (11) Sustainable Cities and Communities, (12) Responsible Consumption and Production, (13) Climate Action, (14) Life Below Water, (15) Life On Land, (16) Peace, Justice, and Strong Institutions, (17) Partnerships for the Goals.",
-        content12: "",
-        content13: "",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack:
-            "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
-        textNext: "Task 2",
-        linkBack: "/section4",
-        linkNext: "/section4/2",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S4P1 = () => {
+    const { t } = useTranslation("s4p1");
+    const ContentS4P1 = [
+        {
+            id: "",
+            title: "Section IV",
+            subtitle: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
+            content1: "Full article, visit:",
+            content2:
+                "https://www.iises.net/a-conceptual-review-of-the-terms-sustainable-development-and.html",
+            content3: "Task 1 :",
+            content4:
+                "After having read the article about the concept of sustainable development,",
+            content5:
+                "a. Explain the key concept of sustainable development with your own understanding.",
+            content6:
+                "b. Fill the diagram about the pillars of sustainable development and find out the example of each pillar in your surrounding.",
+            content7:
+                "c. Analyse the principle of sustainable development based on the article.",
+            content8: "The Key Concept of Sustainable Development",
+            content9: "Fill the diagram below",
+            content10: "The Principle of Sustainable Development",
+            content11:
+                "Education for Sustainable Development (ESD) is commonly understood as education that encourages changes in knowledge, skills, values and attitudes to enable a more sustainable and just society for all. ESD aims to empower and equip current and future generations to meet their needs using a balanced and integrated approach to the economic, social and environmental dimensions of sustainable development. There are 17 SDGs aiming to create a better world by 2030 by ending poverty, fighting inequality, and addressing the urgency of climate change. The 17 SDGs are: (1) No Poverty, (2) Zero Hunger, (3) Good Health and Well-being, (4) Quality Education, (5) Gender Equality, (6) Clean Water and Sanitation, (7) Affordable and Clean Energy, (8) Decent Work and Economic Growth, (9) Industry, Innovation and Infrastructure, (10) Reduced Inequality, (11) Sustainable Cities and Communities, (12) Responsible Consumption and Production, (13) Climate Action, (14) Life Below Water, (15) Life On Land, (16) Peace, Justice, and Strong Institutions, (17) Partnerships for the Goals.",
+            content12: "",
+            content13: "",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack:
+                "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
+            textNext: "Task 2",
+            linkBack: "/section4",
+            linkNext: "/section4/2",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS4P1.map((value) => (

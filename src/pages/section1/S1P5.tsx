@@ -2,29 +2,31 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ImageFigure4 from "../../assets/images/section1/Figure4.jpg";
 import ImageFigure5 from "../../assets/images/section1/Figure5.jpg";
-
-const ContentS1P5 = [
-    {
-        id: "",
-        title: "Section I",
-        subtitle: "PROBLEMATIC ISSUE IN CITRUS PLANTATION",
-        content1: "Citrus as Largest Crops in The World",
-        content2:
-            "Citrus fruits are one of the largest fruit crops in the world. About 30% of citrus fruits are processed to obtain various products, mainly juice (Figure 4). Similarly, the citrus industry is also the second-largest fruit-processing industry, surpassed again by the grape industry, which mainly produces wine. Neither orange juice nor wine can be considered essential foods, but they do have an important role in our lives. Although citrus fruits have been consumed since ancient times, citrus processing, as it is known today, was not possible until thermal treatment (to inactivate enzymes and microorganisms) and concentration processes were commercially available. Since then, the citrus industry has developed rapidly, becoming prominent among food industries (Izquierdo et al., 2013).",
-        content3:
-            "Citrus is also common in every Balinese ceremony. Here in Bali, local farmers love to plant citrus due to the high demand, especially when there are religious ceremonies. Citrus has a very good opportunity as a local fruit for business purposes, being consumed every day as well as for every Balinese ceremony (Figure 5).",
-        labelFigure4: "Figure 4: Citrus 'Juice",
-        labelFigure5: "Figure 5: Citrus use in Balinese ceremony",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Task 1",
-        textNext: "Problems in Citrus Plantation",
-        linkBack: "/section1/4",
-        linkNext: "/section1/6",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S1P5 = () => {
+    const { t } = useTranslation("s1p5");
+    const ContentS1P5 = [
+        {
+            id: "",
+            title: "Section I",
+            subtitle: "PROBLEMATIC ISSUE IN CITRUS PLANTATION",
+            content1: "Citrus as Largest Crops in The World",
+            content2:
+                "Citrus fruits are one of the largest fruit crops in the world. About 30% of citrus fruits are processed to obtain various products, mainly juice (Figure 4). Similarly, the citrus industry is also the second-largest fruit-processing industry, surpassed again by the grape industry, which mainly produces wine. Neither orange juice nor wine can be considered essential foods, but they do have an important role in our lives. Although citrus fruits have been consumed since ancient times, citrus processing, as it is known today, was not possible until thermal treatment (to inactivate enzymes and microorganisms) and concentration processes were commercially available. Since then, the citrus industry has developed rapidly, becoming prominent among food industries (Izquierdo et al., 2013).",
+            content3:
+                "Citrus is also common in every Balinese ceremony. Here in Bali, local farmers love to plant citrus due to the high demand, especially when there are religious ceremonies. Citrus has a very good opportunity as a local fruit for business purposes, being consumed every day as well as for every Balinese ceremony (Figure 5).",
+            labelFigure4: "Figure 4: Citrus 'Juice",
+            labelFigure5: "Figure 5: Citrus use in Balinese ceremony",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Task 1",
+            textNext: "Problems in Citrus Plantation",
+            linkBack: "/section1/4",
+            linkNext: "/section1/6",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS1P5.map((value) => (

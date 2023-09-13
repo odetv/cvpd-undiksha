@@ -1,28 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
+import { useTranslation } from "react-i18next";
 
-const ContentS3P2 = [
-    {
-        id: "",
-        title: "Section III",
-        subtitle: "Integrated Management of Healthy Citrus",
-        content1: "Task 2",
-        content2:
-            "Now that you know about the Citrus nobilis Organic Farm Management, please analyze and evaluate Integrated Management of Healthy Citrus using SWOT analysis!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Task 1",
-        textNext: "Task 3",
-        linkBack: "/section3/2",
-        linkNext: "/section3/4",
-    },
-];
+const S3P3 = () => {
+    const { t } = useTranslation("s3p3");
+    const ContentS3P3 = [
+        {
+            id: "",
+            title: "Section III",
+            subtitle: "Integrated Management of Healthy Citrus",
+            content1: "Task 2",
+            content2:
+                "Now that you know about the Citrus nobilis Organic Farm Management, please analyze and evaluate Integrated Management of Healthy Citrus using SWOT analysis!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Task 1",
+            textNext: "Task 3",
+            linkBack: "/section3/2",
+            linkNext: "/section3/4",
+        },
+    ];
 
-const S3P2 = () => {
     return (
         <section className="bg-indigo-50">
-            {ContentS3P2.map((value) => (
+            {ContentS3P3.map((value) => (
                 <div
                     key={value.id}
                     className="pt-8 pb-8 px-4 mx-auto max-w-screen-lg lg:p-8"
@@ -85,4 +87,4 @@ const S3P2 = () => {
         </section>
     );
 };
-export default S3P2;
+export default S3P3;

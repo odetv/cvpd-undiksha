@@ -3,34 +3,36 @@ import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
 import CustomTable from "../../components/CustomTable";
 import TableS1 from "../../assets/images/section1/TableS1.png";
-
-const ContentS1P4 = [
-    {
-        id: "",
-        title: "Section I",
-        subtitle: "Find out the symptom of CVPD in Citrus!",
-        content1: "Task 1",
-        content2:
-            "Read the text and find out the symptoms of CVPD in citrus. You can complete your explanation by drawing every part of the citrus that is attacked by this disease. A separate sheet of paper can be used for a better and more complete answer.",
-        content3:
-            "Make a table of the quality differences between healthy citrus and citrus affected by CVPD to round out your explanation! You can also complete your answer with a picture!",
-        content4: "Some tips to make a table:",
-        content5: "1. Name your table",
-        content6: "2. Figure out how many columns and rows",
-        content7: "3. Draw the table",
-        content8: "4. Label all your columns",
-        content9: "5. Record the data from your experiment",
-        content10: "6. Check your table",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "The effects of CVPD in Citrus Plantation",
-        textNext: "Citrus as Largest Crops in The World",
-        linkBack: "/section1/3",
-        linkNext: "/section1/5",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S1P4 = () => {
+    const { t } = useTranslation("s1p4");
+    const ContentS1P4 = [
+        {
+            id: "",
+            title: "Section I",
+            subtitle: "Find out the symptom of CVPD in Citrus!",
+            content1: "Task 1",
+            content2:
+                "Read the text and find out the symptoms of CVPD in citrus. You can complete your explanation by drawing every part of the citrus that is attacked by this disease. A separate sheet of paper can be used for a better and more complete answer.",
+            content3:
+                "Make a table of the quality differences between healthy citrus and citrus affected by CVPD to round out your explanation! You can also complete your answer with a picture!",
+            content4: "Some tips to make a table:",
+            content5: "1. Name your table",
+            content6: "2. Figure out how many columns and rows",
+            content7: "3. Draw the table",
+            content8: "4. Label all your columns",
+            content9: "5. Record the data from your experiment",
+            content10: "6. Check your table",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "The effects of CVPD in Citrus Plantation",
+            textNext: "Citrus as Largest Crops in The World",
+            linkBack: "/section1/3",
+            linkNext: "/section1/5",
+        },
+    ];
+
     const numRows = 4;
     const numCols = 4;
     const initialData = Array.from({ length: numRows }, () =>

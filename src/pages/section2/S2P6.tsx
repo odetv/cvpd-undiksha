@@ -1,25 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS2P6 = [
-    {
-        id: "",
-        title: "Section II",
-        subtitle: "SUMMARY SECTION II ENGAGE WITH THREE-DIMENSIONAL LEARNING",
-        content1: "Task 3",
-        content2:
-            "After finishing the second section, please make a summary based on your own understanding!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Science Practice In Socio-Scientific Issues",
-        textNext: "Finish",
-        linkBack: "/section2/5",
-        linkNext: "/section2/finish",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S2P6 = () => {
+    const { t } = useTranslation("s2p6");
+    const ContentS2P6 = [
+        {
+            id: "",
+            title: "Section II",
+            subtitle:
+                "SUMMARY SECTION II ENGAGE WITH THREE-DIMENSIONAL LEARNING",
+            content1: "Task 3",
+            content2:
+                "After finishing the second section, please make a summary based on your own understanding!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Science Practice In Socio-Scientific Issues",
+            textNext: "Finish",
+            linkBack: "/section2/5",
+            linkNext: "/section2/finish",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS2P6.map((value) => (

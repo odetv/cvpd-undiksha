@@ -1,26 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS2P2 = [
-    {
-        id: "",
-        title: "Section II",
-        subtitle:
-            "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
-        content1: "Task 1",
-        content2:
-            "After having insight of disciplinary core ideas (DCI), find out another DCI of SSI: CVPD Disease in Citrus Plantation! Explain your answer below!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
-        textNext: "Cross-Cutting Concepts in Socio-Scientific Issues",
-        linkBack: "/section2/1",
-        linkNext: "/section2/3",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S2P2 = () => {
+    const { t } = useTranslation("s2p2");
+    const ContentS2P2 = [
+        {
+            id: "",
+            title: "Section II",
+            subtitle:
+                "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
+            content1: "Task 1",
+            content2:
+                "After having insight of disciplinary core ideas (DCI), find out another DCI of SSI: CVPD Disease in Citrus Plantation! Explain your answer below!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
+            textNext: "Cross-Cutting Concepts in Socio-Scientific Issues",
+            linkBack: "/section2/1",
+            linkNext: "/section2/3",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS2P2.map((value) => (

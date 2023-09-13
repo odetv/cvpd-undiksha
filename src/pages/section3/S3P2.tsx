@@ -1,25 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS3P2 = [
-    {
-        id: "",
-        title: "Section III",
-        subtitle: "Integrated Management of Healthy Citrus",
-        content1: "Task 1",
-        content2:
-            'Please share your thoughts on what "integrated management of healthy citrus" entails after reading the text. Is there any difference when farmers use this method on citrus plantations?',
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
-        textNext: "Task 2",
-        linkBack: "/section3/1",
-        linkNext: "/section3/3",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S3P2 = () => {
+    const { t } = useTranslation("s3p2");
+    const ContentS3P2 = [
+        {
+            id: "",
+            title: "Section III",
+            subtitle: "Integrated Management of Healthy Citrus",
+            content1: "Task 1",
+            content2:
+                'Please share your thoughts on what "integrated management of healthy citrus" entails after reading the text. Is there any difference when farmers use this method on citrus plantations?',
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
+            textNext: "Task 2",
+            linkBack: "/section3/1",
+            linkNext: "/section3/3",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS3P2.map((value) => (

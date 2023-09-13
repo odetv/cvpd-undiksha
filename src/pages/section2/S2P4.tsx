@@ -1,26 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS2P4 = [
-    {
-        id: "",
-        title: "Section II",
-        subtitle:
-            "Cause and Effect of CVPD Disease which Attack Citrus Plantation",
-        content1: "Task 2",
-        content2:
-            "Read the text and analyzed the cause and effect of CVPD disease which attack Citrus plantation by using your own understanding.",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Cross-Cutting Concepts in Socio-Scientific Issues",
-        textNext: "Science Practice In Socio-Scientific Issues",
-        linkBack: "/section2/3",
-        linkNext: "/section2/5",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S2P4 = () => {
+    const { t } = useTranslation("s2p4");
+    const ContentS2P4 = [
+        {
+            id: "",
+            title: "Section II",
+            subtitle:
+                "Cause and Effect of CVPD Disease which Attack Citrus Plantation",
+            content1: "Task 2",
+            content2:
+                "Read the text and analyzed the cause and effect of CVPD disease which attack Citrus plantation by using your own understanding.",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Cross-Cutting Concepts in Socio-Scientific Issues",
+            textNext: "Science Practice In Socio-Scientific Issues",
+            linkBack: "/section2/3",
+            linkNext: "/section2/5",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS2P4.map((value) => (

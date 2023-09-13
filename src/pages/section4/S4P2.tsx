@@ -1,26 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS4P2 = [
-    {
-        id: "",
-        title: "Section IV",
-        subtitle:
-            "Citrus nobilis ORGANIC-FARM MANAGEMENT AND SUSTAINABLE DEVELOPMENT",
-        content1: "Task 2",
-        content2:
-            "Based on your knowledge on sustainable development and Citrus nobilis Organic Farm Management, analyze and evaluate how far Integrated Management of  Healthy Citrus relates to sustainable development!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Task 1",
-        textNext: "Task 3",
-        linkBack: "/section4/1",
-        linkNext: "/section4/3",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S4P2 = () => {
+    const { t } = useTranslation("s4p2");
+    const ContentS4P2 = [
+        {
+            id: "",
+            title: "Section IV",
+            subtitle:
+                "Citrus nobilis ORGANIC-FARM MANAGEMENT AND SUSTAINABLE DEVELOPMENT",
+            content1: "Task 2",
+            content2:
+                "Based on your knowledge on sustainable development and Citrus nobilis Organic Farm Management, analyze and evaluate how far Integrated Management of  Healthy Citrus relates to sustainable development!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Task 1",
+            textNext: "Task 3",
+            linkBack: "/section4/1",
+            linkNext: "/section4/3",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS4P2.map((value) => (

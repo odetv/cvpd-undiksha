@@ -1,21 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-const ContentS3PFinish = [
-    {
-        id: "",
-        title: "Section III: SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
-        subtitle: "~ Completed ~",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Home",
-        textNext: "Section IV",
-        linkBack: "/",
-        linkNext: "/section4",
-    },
-];
+import { useTranslation } from "react-i18next";
+import logoundiksha from "../../assets/images/logo/logo-undiksha.png";
 
 const S3PFinish = () => {
+    const { t } = useTranslation("s3pfinish");
+    const ContentS3PFinish = [
+        {
+            id: "",
+            title: "Section III: SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
+            subtitle: "~ Completed ~",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Home",
+            textNext: "Section IV",
+            linkBack: "/",
+            linkNext: "/section4",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50 pb-36">
             {ContentS3PFinish.map((value) => (
@@ -29,7 +32,7 @@ const S3PFinish = () => {
                         <div className="mx-auto max-w-2xl lg:max-w-4xl">
                             <img
                                 className="mx-auto h-24"
-                                src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
+                                src={logoundiksha}
                                 alt=""
                             />
                             <figure className="mt-10">

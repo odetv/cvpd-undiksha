@@ -1,25 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
-
-const ContentS1P8 = [
-    {
-        id: "",
-        title: "Section I",
-        subtitle: "SUMMARY SECTION I ENCOUNTER FOCAL ISSUE",
-        content1: "Task 3",
-        content2:
-            "After learning about the first section, please make a summary based on your own understanding!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Task 2",
-        textNext: "Finish",
-        linkBack: "/section1/7",
-        linkNext: "/section1/finish",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S1P8 = () => {
+    const { t } = useTranslation("s1p8");
+    const ContentS1P8 = [
+        {
+            id: "",
+            title: "Section I",
+            subtitle: "SUMMARY SECTION I ENCOUNTER FOCAL ISSUE",
+            content1: "Task 3",
+            content2:
+                "After learning about the first section, please make a summary based on your own understanding!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Task 2",
+            textNext: "Finish",
+            linkBack: "/section1/7",
+            linkNext: "/section1/finish",
+        },
+    ];
     return (
         <section className="bg-indigo-50 pb-52">
             {ContentS1P8.map((value) => (

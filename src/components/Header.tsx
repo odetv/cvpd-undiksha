@@ -13,12 +13,13 @@ import en from "../assets/images/header/en.png";
 import sw from "../assets/images/header/switch.png";
 import { useTranslation } from "react-i18next";
 import { switchToEnglish, switchToIndonesian } from "../i18n";
+import logoundiksha from "../assets/images/logo/logo-undiksha.png";
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(" ");
 };
 
-const Navbar = () => {
+const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const handleMenuClick = () => {
         setMobileMenuOpen(false);
@@ -74,11 +75,7 @@ const Navbar = () => {
             >
                 <div className="flex lg:flex-1">
                     <a href="/" className="flex flex-row items-center">
-                        <img
-                            className="h-8 w-8"
-                            src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
-                            alt=""
-                        />
+                        <img className="h-8 w-8" src={logoundiksha} alt="" />
                         <span className="ml-2 text-white font-bold">
                             CVPD Undiksha
                         </span>
@@ -228,7 +225,7 @@ const Navbar = () => {
                         <Link to="/" className="flex flex-row items-center">
                             <img
                                 className="h-8 w-8"
-                                src="https://cdn.undiksha.ac.id/wp-content/uploads/2018/01/27142711/favicon-logo-undiksha.png"
+                                src={logoundiksha}
                                 alt=""
                             />
                             <span className="ml-2 text-gray-900 font-bold">
@@ -346,4 +343,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;

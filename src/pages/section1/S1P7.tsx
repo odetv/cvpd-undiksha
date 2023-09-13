@@ -2,25 +2,27 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PersistentTextarea from "../../components/PersistentTextarea";
 import Task2 from "../../assets/images/section1/Task2.png";
-
-const ContentS1P7 = [
-    {
-        id: "",
-        title: "Section I",
-        subtitle: "SWOT Analysis Regarding Citrus Plantation",
-        content1: "Task 2",
-        content2:
-            "Read the text and make a SWOT analysis with micro (individual), meso (society) and macro (society as whole) analysis of problematic Issue in Citrus Plantation. You can complete your explanation in diagram below!",
-        labelBack: "Back",
-        labelNext: "Next",
-        textBack: "Problems in Citrus Plantations",
-        textNext: "Task 3",
-        linkBack: "/section1/6",
-        linkNext: "/section1/8",
-    },
-];
+import { useTranslation } from "react-i18next";
 
 const S1P7 = () => {
+    const { t } = useTranslation("s1p7");
+    const ContentS1P7 = [
+        {
+            id: "",
+            title: "Section I",
+            subtitle: "SWOT Analysis Regarding Citrus Plantation",
+            content1: "Task 2",
+            content2:
+                "Read the text and make a SWOT analysis with micro (individual), meso (society) and macro (society as whole) analysis of problematic Issue in Citrus Plantation. You can complete your explanation in diagram below!",
+            labelBack: "Back",
+            labelNext: "Next",
+            textBack: "Problems in Citrus Plantations",
+            textNext: "Task 3",
+            linkBack: "/section1/6",
+            linkNext: "/section1/8",
+        },
+    ];
+
     return (
         <section className="bg-indigo-50">
             {ContentS1P7.map((value) => (
