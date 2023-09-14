@@ -18,7 +18,7 @@ const Home = () => {
                     </h1>
                     <img
                         src={ImageIntro}
-                        alt="image"
+                        alt="CVPD Undiksha"
                         className="shadow-lg mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
                     />
                     <p className="indent-8 font-light text-justify text-gray-500 text-base">

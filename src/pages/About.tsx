@@ -101,7 +101,7 @@ const About = () => {
                                             />
                                             <div className="ml-4 flex min-w-0 flex-1 gap-2">
                                                 <span className="truncate font-medium">
-                                                    Module CVPD Undiksha.pdf
+                                                    {t("12")}
                                                 </span>
                                             </div>
                                         </div>

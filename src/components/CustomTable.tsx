@@ -1,4 +1,5 @@
 import React, { useState, ChangeEvent, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 interface CustomTableProps {
     numRows: number;
@@ -72,6 +73,8 @@ const CustomTable: React.FC<CustomTableProps> = ({
     useEffect(() => {
         saveToLocalStorage(data);
     }, [data]);
+
+    const { t } = useTranslation("customTable");
 
     return (
         <div className="bg-white p-6 text-sm border-blue-600 border rounded-lg">
@@ -171,13 +174,13 @@ const CustomTable: React.FC<CustomTableProps> = ({
                     onClick={resetTable} // Tambahkan event onClick untuk tombol Reset
                     className="bg-red-600 text-white px-2 py-2 rounded" // Anda bisa mengganti warna tombol sesuai preferensi
                 >
-                    Clear
+                    {t("1")}
                 </button>
                 <button
                     onClick={addRow}
                     className="bg-blue-600 text-white px-2 py-2 rounded"
                 >
-                    Add Row
+                    {t("2")}
                 </button>
                 {/* <button
                     onClick={addColumn}

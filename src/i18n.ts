@@ -6,6 +6,8 @@ import footerEn from "./translations/components/footer/en.json";
 import footerId from "./translations/components/footer/id.json";
 import pageHandlerEn from "./translations/components/pageHandler/en.json";
 import pageHandlerId from "./translations/components/pageHandler/id.json";
+import customTableEn from "./translations/components/customTable/en.json";
+import customTableId from "./translations/components/customTable/id.json";
 import homeEn from "./translations/pages/home/en.json";
 import homeId from "./translations/pages/home/id.json";
 import aboutEn from "./translations/pages/about/en.json";
@@ -74,6 +76,7 @@ const resources = {
         header: headerEn,
         footer: footerEn,
         pageHandler: pageHandlerEn,
+        customTable: customTableEn,
         home: homeEn,
         about: aboutEn,
         section1: section1En,
@@ -110,6 +113,7 @@ const resources = {
         header: headerId,
         footer: footerId,
         pageHandler: pageHandlerId,
+        customTable: customTableId,
         home: homeId,
         about: aboutId,
         section1: section1Id,
