@@ -32,7 +32,7 @@ const Section2 = () => {
                     <h1 className="mb-2 text-center text-xl lg:text-2xl font-bold text-gray-900">
                         {value.title}
                     </h1>
-                    <h1 className="pb-6 text-center lg:text-lg font-bold text-gray-500">
+                    <h1 className="pb-6 text-center lg:text-lg font-bold text-gray-500 uppercase">
                         {value.subtitle}
                     </h1>
                     <h1 className="font-light text-center text-gray-500 text-base">

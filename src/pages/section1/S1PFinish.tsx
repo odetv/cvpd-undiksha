@@ -8,12 +8,12 @@ const S1PFinish = () => {
     const ContentS1PFinish = [
         {
             id: "",
-            title: "Section I: Encounter Focal Issue",
-            subtitle: "~ Completed ~",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Home",
-            textNext: "Section II",
+            title: t("1"),
+            subtitle: t("2"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/",
             linkNext: "/section2",
         },

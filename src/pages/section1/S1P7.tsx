@@ -9,15 +9,18 @@ const S1P7 = () => {
     const ContentS1P7 = [
         {
             id: "",
-            title: "Section I",
-            subtitle: "SWOT Analysis Regarding Citrus Plantation",
-            content1: "Task 2",
-            content2:
-                "Read the text and make a SWOT analysis with micro (individual), meso (society) and macro (society as whole) analysis of problematic Issue in Citrus Plantation. You can complete your explanation in diagram below!",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Problems in Citrus Plantations",
-            textNext: "Task 3",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            content4: t("6"),
+            content5: t("7"),
+            content6: t("8"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section1/6",
             linkNext: "/section1/8",
         },
@@ -46,20 +49,20 @@ const S1P7 = () => {
                         <img className="pb-4" src={Task2} />
                         <div className="flex flex-col gap-3">
                             <PersistentTextarea
-                                id="Strengths"
-                                placeholder="Fill Strengths"
+                                id={value.content3}
+                                placeholder={value.content3}
                             />
                             <PersistentTextarea
-                                id="Weaknesses"
-                                placeholder="Fill Weaknesses"
+                                id={value.content4}
+                                placeholder={value.content4}
                             />
                             <PersistentTextarea
-                                id="Opportunities"
-                                placeholder="Fill Opportunities"
+                                id={value.content5}
+                                placeholder={value.content5}
                             />
                             <PersistentTextarea
-                                id="Threats"
-                                placeholder="Fill Threats"
+                                id={value.content6}
+                                placeholder={value.content6}
                             />
                         </div>
                     </div>

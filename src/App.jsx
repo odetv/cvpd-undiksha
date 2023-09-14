@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import PageHandler from "./components/PageHandler";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import PageHandler from "./components/PageHandler";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Bibliography from "./pages/Bibliography";
@@ -39,11 +39,9 @@ import S4PFinish from "./pages/section4/S4PFinish";
 
 function ScrollToTop() {
     const location = useLocation();
-
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location.pathname]);
-
     return null;
 }
 

@@ -7,18 +7,15 @@ const S1P2 = () => {
     const ContentS1P2 = [
         {
             id: "",
-            title: "Section I",
-            subtitle: "CVPD THAT ATTACK CITRUS PRODUCTION",
-            content1:
-                "Citrus Vein Phloem Degeneration that Attack Citrus Production",
-            content2:
-                'The high demand and consumption of citrus is due to the fact that this fruit is easy to find in the community and because the price is quite affordable. On the other hand, the quality of citrus can be influenced by various factors, including the attack of Citrus Vein Phloem Degeneration (CVPD). CVPD disease is caused by a gram-negative bacteria, Liberibacter asiaticus. It is transmitted by an insect vector, Diaphorina citric, through the osculation of seedlings from CVPD diseaseinfected citrus plants. Several types of citrus plants, especially those with less economic value, were known to be resistant to CVPD. Types of citrus that are resistant to CVPD are hereafter referred to as "citrus with the CVPDr gene." Citrus plants resistant to CVPD (CVPDr) are thought to contain genes that produce a trait that is able to break the pathogenic infection of CVPD (L. asiaticum) or is able to resist transmission of pathogens carried by vector insects (Wirawan et al., 2014).',
-            content3:
-                "The CVPD disease issue has been attacking citrus crops in several plantations at Kintamani, Bangli, Indonesia. This issue has become one of the local environmental issues that is not only happening in Bali but also in other areas of Indonesia. The CPVD disease is a major cause of yield loss in citrus plantations in almost all countries, especially Asia and Africa. Africa reduced citrus crop losses from CVPD diseases by 30- 100% in 1965. Previous attacks occurred in 1932–1936 and in 1939– 1946. In Vietnam, especially in the Mekong Delta, 70–79% of the crop has been infected, and Vinh Long Province and Can Tho reduced crop yields by 42%. Damage to crops in the Philippines is estimated at seven million trees between 1962 and 1971, wiping out more than one million trees in one area. Plant damage in Thailand exceeded 95%, while approximately three million crops in Indonesia were damaged between 1960 and 1970 (Julyasih, 2009).",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Citrus as an Important Commodity",
-            textNext: "The effects of CVPD in Citrus Plantation",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section1/1",
             linkNext: "/section1/3",
         },

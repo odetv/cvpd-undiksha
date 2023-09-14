@@ -10,24 +10,24 @@ const S1P4 = () => {
     const ContentS1P4 = [
         {
             id: "",
-            title: "Section I",
-            subtitle: "Find out the symptom of CVPD in Citrus!",
-            content1: "Task 1",
-            content2:
-                "Read the text and find out the symptoms of CVPD in citrus. You can complete your explanation by drawing every part of the citrus that is attacked by this disease. A separate sheet of paper can be used for a better and more complete answer.",
-            content3:
-                "Make a table of the quality differences between healthy citrus and citrus affected by CVPD to round out your explanation! You can also complete your answer with a picture!",
-            content4: "Some tips to make a table:",
-            content5: "1. Name your table",
-            content6: "2. Figure out how many columns and rows",
-            content7: "3. Draw the table",
-            content8: "4. Label all your columns",
-            content9: "5. Record the data from your experiment",
-            content10: "6. Check your table",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "The effects of CVPD in Citrus Plantation",
-            textNext: "Citrus as Largest Crops in The World",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            content4: t("6"),
+            content5: t("7"),
+            content6: t("8"),
+            content7: t("9"),
+            content8: t("10"),
+            content9: t("11"),
+            content10: t("12"),
+            content11: t("13"),
+            content12: t("14"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section1/3",
             linkNext: "/section1/5",
         },
@@ -60,12 +60,12 @@ const S1P4 = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
-                            id="Citrus Leaf"
-                            placeholder="Citrus Leaf"
+                            id={value.content11}
+                            placeholder={value.content11}
                         />
                         <PersistentTextarea
-                            id="Citrus Fruits"
-                            placeholder="Citrus Fruits"
+                            id={value.content12}
+                            placeholder={value.content12}
                         />
                     </div>
 

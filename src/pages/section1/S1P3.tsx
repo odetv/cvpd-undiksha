@@ -8,22 +8,17 @@ const S1P3 = () => {
     const ContentS1P3 = [
         {
             id: "",
-            title: "Section I",
-            subtitle: "CVPD THAT ATTACK CITRUS PRODUCTION",
-            content1: "The effects of CVPD in Citrus Plantation",
-            content2:
-                "Citrus production in Indonesia has fluctuated since the last decade. After reaching nearly 2.4 million tons in 2008, production fell to a low of 1.5 million tons in 2015.Positive production trends then resumed, reaching 2.2 million tons in 2017 (Indonesian Statistic Bureau 2017).Citrus production has fluctuated due to a variety of issues, particularly pest and disease attacks, particularly CVPD or Huanglongbing (HLB), in several major production centers (Widyaningsih et al., 2017).",
-            content3:
-                "Typical disease symptoms include yellowing leaves, dark green leaf bones, leaves that are more rigid and thicker than healthy leaves, and leaves that are smaller and harder. The spread of the disease occurs primarily through insect vectors such as Diaphorina citri Kuwayama (Homoptera: Psyllidae). The spread of the disease can also be caused by the spread of citrus plant seeds that have been infected by pathogens that cause CVPD (tissue graft) (Capoor et al., 1974; Mead, 1998). Wijaya (2007) says that the number of D. citri as a vector insect and the presence of a source of inoculum affect how CVPD spreads in the wild.",
-            content4:
-                "Based on a 2015 study, it was found that 98% of citrus plants in Buleleng Regency and 60% in Karangasem Regency were infected with CVPD. Due to the CVPD outbreak, a largescale eradication was carried out until it reached almost 100% in 1990. It's done specifically to siem oranges and tangerines caused by an infectious CVPD (Citrus Vein Phloem Degeneration) disease caused by the bacteria Liberobacter asiaticum, which is common in citrus crops in the field, so that the citrus fruit breaks into small pieces and changes color, which is not good (Wirawan et al., 2014). In addition, it is reported that this disease continues to damage citrus crops in various plantation regions in Kintamani, Bangli, Indonesia.",
-            labelFigure3:
-                "Figure 3: The symptoms of CVPD disease in Citrus leaf",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack:
-                "Citrus Vein Phloem Degeneration that Attack Citrus Production",
-            textNext: "Task 1",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            labelFigure3: t("6"),
+            content4: t("7"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section1/2",
             linkNext: "/section1/4",
         },
