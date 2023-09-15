@@ -8,16 +8,14 @@ const S2P4 = () => {
     const ContentS2P4 = [
         {
             id: "",
-            title: "Section II",
-            subtitle:
-                "Cause and Effect of CVPD Disease which Attack Citrus Plantation",
-            content1: "Task 2",
-            content2:
-                "Read the text and analyzed the cause and effect of CVPD disease which attack Citrus plantation by using your own understanding.",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Cross-Cutting Concepts in Socio-Scientific Issues",
-            textNext: "Science Practice In Socio-Scientific Issues",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section2/3",
             linkNext: "/section2/5",
         },

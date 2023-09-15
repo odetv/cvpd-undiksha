@@ -8,12 +8,12 @@ const S2PFinish = () => {
     const ContentS2PFinish = [
         {
             id: "",
-            title: "Section II: Engage With Three-Dimensional Learning",
-            subtitle: "~ Completed ~",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Home",
-            textNext: "Section III",
+            title: t("1"),
+            subtitle: t("2"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/",
             linkNext: "/section3",
         },

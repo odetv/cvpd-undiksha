@@ -8,16 +8,18 @@ const S2P2 = () => {
     const ContentS2P2 = [
         {
             id: "",
-            title: "Section II",
-            subtitle:
-                "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
-            content1: "Task 1",
-            content2:
-                "After having insight of disciplinary core ideas (DCI), find out another DCI of SSI: CVPD Disease in Citrus Plantation! Explain your answer below!",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Disciplinary Core Ideas In Socio-Scientific Issues",
-            textNext: "Cross-Cutting Concepts in Socio-Scientific Issues",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            content4: t("6"),
+            content5: t("7"),
+            content6: t("8"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section2/1",
             linkNext: "/section2/3",
         },
@@ -44,20 +46,20 @@ const S2P2 = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         <PersistentTextarea
-                            id="Physical Sciences"
-                            placeholder="Physical Sciences"
+                            id={value.content3}
+                            placeholder={value.content3}
                         />
                         <PersistentTextarea
-                            id="Life Sciences"
-                            placeholder="Life Sciences"
+                            id={value.content4}
+                            placeholder={value.content4}
                         />
                         <PersistentTextarea
-                            id="Earth and Space"
-                            placeholder="Earth and Space"
+                            id={value.content5}
+                            placeholder={value.content5}
                         />
                         <PersistentTextarea
-                            id="Engineering, Technology, Application"
-                            placeholder="Engineering, Technology, Application"
+                            id={value.content6}
+                            placeholder={value.content6}
                         />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">

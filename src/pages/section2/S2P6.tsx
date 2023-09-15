@@ -8,16 +8,15 @@ const S2P6 = () => {
     const ContentS2P6 = [
         {
             id: "",
-            title: "Section II",
-            subtitle:
-                "SUMMARY SECTION II ENGAGE WITH THREE-DIMENSIONAL LEARNING",
-            content1: "Task 3",
-            content2:
-                "After finishing the second section, please make a summary based on your own understanding!",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Science Practice In Socio-Scientific Issues",
-            textNext: "Finish",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section2/5",
             linkNext: "/section2/finish",
         },
@@ -43,7 +42,10 @@ const S2P6 = () => {
                         {value.content2}
                     </p>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S2P6" placeholder="Summary" />
+                        <PersistentTextarea
+                            id="S2P6"
+                            placeholder={value.content3}
+                        />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-52">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">

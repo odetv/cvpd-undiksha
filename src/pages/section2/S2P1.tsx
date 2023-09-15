@@ -8,23 +8,18 @@ const S2P1 = () => {
     const ContentS2P1 = [
         {
             id: "",
-            title: "Section II",
-            subtitle:
-                "Disciplinary Core Ideas In Socio-Scientific Issues: CVPD Disease in Citrus Plantation",
-            content1: "Disciplinary Core Ideas",
-            content2:
-                "Based on the instructional model of using SSI-TL (Sadler, et al., 2017), disciplinary core ideas are also known as scientific facts or content knowledge. Disciplinary ideas are grouped in four domains: the physical sciences; the life sciences; the earth and space sciences; and engineering, technology, and applications of science.",
-            content3: "Life Sciences",
-            content4:
-                "The content knowledge in life sciences related in SSI: CVPD disease in Citrus plantation is LS 1: From molecules to organism: structures and process. Some specific insect as a vector of CVPD disease. Insect structure as the vector and the process of this disease attack citrus. a CVPD disease-causing bacteria named Liberobacter. Liberobacter is an alpha-proteobacterium and has been successfully characterized by analysis of the 16S rDNA sequences and beta operon gene (Hocquellet et al., 1999). CVPD disease-causing pathogenic bacteria are known to be spread by insects such as fleas, also called citrus psyllids, named D. citri Kuwayama (Figure 8). Insect D. citri as a vector, Liberobacter bacteria have the potential to breed highly, especially in the lowlands, and the period of transmission (the infectious period) can take quite a long time, up to 90 days. This insect can lay up to 800 eggs, and the eggs may hatch after 3-5 days; a year later, there were nine generations (Anonymous, 1996).",
-            content5:
-                "Psyllid Diapohorina Citri Kuw is a transmitting insect or vector for CVPD that accelerates the spread of this disease in the field. A CVPD vector containing the pathogen L. asiaticus has been shown to transmit this systemic disease to healthy citrus trees. If there are no citrus trees infected by CVPD in the orchard due to disease-free citrus seedlings, the presence of transmitting insects is just an ordinary pest that damages shoot buds or young shoots.",
-            content6:
-                "D. citri can be effectively controlled using stem wiping or painting methods with a systemic insecticide containing the active ingredient imidacloprid or other systemic pesticides, the efficacy of which must be determined beforehand. The stem painting can be repeated every 2–4 weeks. It can also be done by sprinkling an insecticide solution containing the active ingredient tiametoksam (5 grams per liter) at a rate of 0.5 liters per tree (4 years old) under the plant canopy or by spraying with insecticide when plants form buds or shoots.",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "ENGAGE WITH THREE-DIMENSIONAL LEARNING",
-            textNext: "Task 1",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            content4: t("6"),
+            content5: t("7"),
+            content6: t("8"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section2",
             linkNext: "/section2/2",
         },
