@@ -93,14 +93,14 @@ const Header = () => {
                         <div className="text-xl" />
                         {isTranslatedToID ? (
                             <div className="flex gap-1 items-center">
-                                <img src={en} className="w-6 h-4" />
-                                <span className="text-xs">EN</span>
+                                <img src={id} className="w-6 h-4" />
+                                <span className="text-xs">ID</span>
                                 <img src={sw} className="w-4 h-4" />
                             </div>
                         ) : (
                             <div className="flex gap-1 items-center">
-                                <img src={id} className="w-6 h-4" />
-                                <span className="text-xs">ID</span>
+                                <img src={en} className="w-6 h-4" />
+                                <span className="text-xs">EN</span>
                                 <img src={sw} className="w-4 h-4" />
                             </div>
                         )}
@@ -190,14 +190,14 @@ const Header = () => {
                         <div className="text-xl" />
                         {isTranslatedToID ? (
                             <div className="flex gap-1 items-center">
-                                <img src={en} className="w-6 h-4" />
-                                <span className="text-xs">EN</span>
+                                <img src={id} className="w-6 h-4" />
+                                <span className="text-xs">ID</span>
                                 <img src={sw} className="w-4 h-4" />
                             </div>
                         ) : (
                             <div className="flex gap-1 items-center">
-                                <img src={id} className="w-6 h-4" />
-                                <span className="text-xs">ID</span>
+                                <img src={en} className="w-6 h-4" />
+                                <span className="text-xs">EN</span>
                                 <img src={sw} className="w-4 h-4" />
                             </div>
                         )}
@@ -244,14 +244,14 @@ const Header = () => {
                                 <div className="text-xl" />
                                 {isTranslatedToID ? (
                                     <div className="flex gap-1 items-center">
-                                        <img src={en} className="w-6 h-4" />
-                                        <span className="text-xs">EN</span>
+                                        <img src={id} className="w-6 h-4" />
+                                        <span className="text-xs">ID</span>
                                         <img src={sw} className="w-4 h-4" />
                                     </div>
                                 ) : (
                                     <div className="flex gap-1 items-center">
-                                        <img src={id} className="w-6 h-4" />
-                                        <span className="text-xs">ID</span>
+                                        <img src={en} className="w-6 h-4" />
+                                        <span className="text-xs">EN</span>
                                         <img src={sw} className="w-4 h-4" />
                                     </div>
                                 )}

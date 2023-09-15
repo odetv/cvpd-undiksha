@@ -101,6 +101,7 @@ const CustomTable: React.FC<CustomTableProps> = ({
                                             <div className="relative">
                                                 <input
                                                     type="text"
+                                                    placeholder="..."
                                                     value={cell}
                                                     onChange={(e) =>
                                                         handleCellChange(

@@ -8,12 +8,12 @@ const S4PFinish = () => {
     const ContentS4PFinish = [
         {
             id: "",
-            title: "Section IV: SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
-            subtitle: "~ Completed ~",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Home",
-            textNext: "Restart",
+            title: t("1"),
+            subtitle: t("2"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/",
             linkNext: "/section1",
         },

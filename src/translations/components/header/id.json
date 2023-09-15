@@ -2,7 +2,7 @@
     "1": "Beranda",
     "2": "Modul",
     "3": "Tentang",
-    "4": "Tim Malang",
+    "4": "Kunjungi Tim Malang",
 
     "module": [
         {
@@ -11,7 +11,7 @@
         },
         {
             "name": "Bagian II",
-            "description": "Terlibat dengan Pembelajaran Tiga Dimensi"
+            "description": "Terlibat Dengan Pembelajaran Tiga Dimensi"
         },
         {
             "name": "Bagian III",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Bagian IV",
-            "description": "Pembangunan Berkelanjutan melalui Pengelolaan Pertanian Organik Citrus nobilis"
+            "description": "Pembangunan Berkelanjutan Melalui Pengelolaan Terpadu Jeruk Sehat"
         }
     ]
 }

@@ -21,7 +21,7 @@ const PersistentTextarea = ({ id, placeholder }) => {
 
     return (
         <textarea
-            className="textarea p-2 border border-indigo-500 rounded-lg w-full h-64"
+            className="textarea p-3 border border-indigo-500 rounded-lg w-full h-64"
             placeholder={placeholder}
             value={textareaValue}
             onChange={handleTextareaChange}

@@ -12,32 +12,29 @@ const S4P1 = () => {
     const ContentS4P1 = [
         {
             id: "",
-            title: "Section IV",
-            subtitle: "THE CONCEPT OF SUSTAINABLE DEVELOPMENT",
-            content1: "Full article, visit:",
-            content2:
-                "https://www.iises.net/a-conceptual-review-of-the-terms-sustainable-development-and.html",
-            content3: "Task 1 :",
-            content4:
-                "After having read the article about the concept of sustainable development,",
-            content5:
-                "a. Explain the key concept of sustainable development with your own understanding.",
-            content6:
-                "b. Fill the diagram about the pillars of sustainable development and find out the example of each pillar in your surrounding.",
-            content7:
-                "c. Analyse the principle of sustainable development based on the article.",
-            content8: "The Key Concept of Sustainable Development",
-            content9: "Fill the diagram below",
-            content10: "The Principle of Sustainable Development",
-            content11:
-                "Education for Sustainable Development (ESD) is commonly understood as education that encourages changes in knowledge, skills, values and attitudes to enable a more sustainable and just society for all. ESD aims to empower and equip current and future generations to meet their needs using a balanced and integrated approach to the economic, social and environmental dimensions of sustainable development. There are 17 SDGs aiming to create a better world by 2030 by ending poverty, fighting inequality, and addressing the urgency of climate change. The 17 SDGs are: (1) No Poverty, (2) Zero Hunger, (3) Good Health and Well-being, (4) Quality Education, (5) Gender Equality, (6) Clean Water and Sanitation, (7) Affordable and Clean Energy, (8) Decent Work and Economic Growth, (9) Industry, Innovation and Infrastructure, (10) Reduced Inequality, (11) Sustainable Cities and Communities, (12) Responsible Consumption and Production, (13) Climate Action, (14) Life Below Water, (15) Life On Land, (16) Peace, Justice, and Strong Institutions, (17) Partnerships for the Goals.",
-            content12: "",
-            content13: "",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack:
-                "SUSTAINABLE DEVELOPMENT THROUGH Integrated Management of Healthy Citrus",
-            textNext: "Task 2",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            content4: t("6"),
+            content5: t("7"),
+            content6: t("8"),
+            content7: t("9"),
+            content8: t("10"),
+            content9: t("11"),
+            content10: t("12"),
+            content11: t("13"),
+            content12: t("14"),
+            content13: t("15"),
+            content14: t("16"),
+            content15: t("17"),
+            content16: t("18"),
+            content17: t("19"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section4",
             linkNext: "/section4/2",
         },
@@ -86,42 +83,50 @@ const S4P1 = () => {
                         {value.content8}
                     </h1>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P41" placeholder="..." />
+                        <PersistentTextarea
+                            id="S3P41"
+                            placeholder={value.content13}
+                        />
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content9}
                     </h1>
-                    <div className="sm:flex lg:flex md:flex xl:flex gap-3 items-center">
+                    <div className="sm:flex lg:flex md:flex xl:flex gap-3">
                         <div className="mb-3 border border-blue-600 p-3 rounded-xl">
                             <SustainableDiagram />
                         </div>
                         <div className="">
                             <PersistentTextarea
-                                id="S3P42"
-                                placeholder="Fill A"
+                                id={value.content14}
+                                placeholder={value.content14}
                             />
                         </div>
                         <div className="">
                             <PersistentTextarea
-                                id="S3P43"
-                                placeholder="Fill B"
+                                id={value.content15}
+                                placeholder={value.content15}
                             />
                         </div>
                         <div className="">
                             <PersistentTextarea
-                                id="S3P44"
-                                placeholder="Fill C"
+                                id={value.content16}
+                                placeholder={value.content16}
                             />
                         </div>
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
                         {value.content10}
                     </h1>
-
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P45" placeholder="..." />
+                        <PersistentTextarea
+                            id="S3P45"
+                            placeholder={value.content17}
+                        />
                     </div>
-                    <div className="xl:flex lg:flex md:flex sm:flex flex-row gap-3 items-center mt-6 mb-6">
+                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
+                        {value.content11}
+                    </h1>
+                    <div className="xl:flex lg:flex md:flex sm:flex flex-row gap-3 items-center mb-6">
                         <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[400px] xl:w-[400px] lg:w-[400px] shadow-lg">
                             <img className="w-full" src={ImagePrinciple} />
                         </div>
@@ -130,13 +135,7 @@ const S4P1 = () => {
                         </div>
                     </div>
                     <div className="indent-8 font-light text-justify text-gray-500 text-base mb-3">
-                        {value.content11}
-                    </div>
-                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500">
                         {value.content12}
-                    </h1>
-                    <div className="indent-8 font-light text-justify text-gray-500 text-base mb-3">
-                        {value.content13}
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">

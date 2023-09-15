@@ -12,6 +12,7 @@ const S3P2 = () => {
             subtitle: t("2"),
             content1: t("3"),
             content2: t("4"),
+            content3: t("5"),
             labelBack: t("labelBack"),
             labelNext: t("labelNext"),
             textBack: t("textBack"),
@@ -41,7 +42,10 @@ const S3P2 = () => {
                         {value.content2}
                     </p>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S3P2" placeholder="..." />
+                        <PersistentTextarea
+                            id="S3P2"
+                            placeholder={value.content3}
+                        />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-44">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">

@@ -9,7 +9,7 @@ const SustainableDiagram: React.FC = () => {
     return (
         <div className="flex flex-col-reverse items-center justify-center h-full">
             <svg width="300" height="300">
-                {/* Lingkaran A */}
+                {/* Lingkaran B */}
                 <circle cx="100" cy="200" r="100" fill="blue" opacity={0.5} s />
                 <text
                     x="50"
@@ -18,10 +18,10 @@ const SustainableDiagram: React.FC = () => {
                     fill="white"
                     fontSize="24"
                 >
-                    {textA || "A"}
+                    {textA || "B"}
                 </text>
 
-                {/* Lingkaran B */}
+                {/* Lingkaran A */}
                 <circle cx="150" cy="100" r="100" fill="green" opacity={0.5} />
                 <text
                     x="150"
@@ -30,7 +30,7 @@ const SustainableDiagram: React.FC = () => {
                     fill="white"
                     fontSize="24"
                 >
-                    {textB || "B"}
+                    {textB || "A"}
                 </text>
 
                 {/* Lingkaran C */}

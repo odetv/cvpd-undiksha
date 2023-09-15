@@ -8,16 +8,15 @@ const S4P3 = () => {
     const ContentS4P3 = [
         {
             id: "",
-            title: "Section IV",
-            subtitle:
-                "SUMMARY SECTION IV SUSTAINABLE DEVELOPMENT THROUGH CITRUS NOBILIS ORGANIC-FARM MANAGEMENT",
-            content1: "Task 3",
-            content2:
-                "After studying this fourth section, please make a summary based on your own understanding!",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Task 2",
-            textNext: "Finish",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            content3: t("5"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section4/2",
             linkNext: "/section4/finish",
         },
@@ -43,7 +42,10 @@ const S4P3 = () => {
                         {value.content2}
                     </p>
                     <div className="flex flex-col gap-3">
-                        <PersistentTextarea id="S4P3" placeholder="..." />
+                        <PersistentTextarea
+                            id="S4P3"
+                            placeholder={value.content3}
+                        />
                     </div>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12 mb-52">
                         <button className="px-4 bg-none border border-indigo-400 hover:bg-indigo-100 text-indigo-900 py-2 rounded-lg">
