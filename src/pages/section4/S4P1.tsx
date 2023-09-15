@@ -53,7 +53,7 @@ const S4P1 = () => {
                     <h1 className="pb-6 text-center lg:text-lg font-bold text-gray-500">
                         {value.subtitle}
                     </h1>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[700px] xl:w-[700px] lg:w-[700px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[700px] xl:w-[700px] lg:w-[700px] mt-4 mb-8 shadow-lg">
                         <img className="w-full" src={ImageArticle} />
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500">

@@ -3,8 +3,12 @@
     "2": "PEMBANGUNAN BERKELANJUTAN MELALUI Pengelolaan Terpadu Jeruk Sehat",
     "3": "Pada bagian keempat ini Anda akan mempelajari konsep pembangunan berkelanjutan dan sejauh mana hubungan Pengelolaan Terpadu Jeruk Sehat dengan konsep tersebut.",
     "4": "Tujuan Pembelajaran",
-    "5": "Menjelaskan konsep pembangunan berkelanjutan",
-    "6": "Menganalisis dan mengevaluasi sejauh mana hubungan Pengelolaan Terpadu Jeruk Sehat dengan pembangunan berkelanjutan",
+    "los4": [
+        {
+            "5": "Menjelaskan konsep pembangunan berkelanjutan",
+            "6": "Menganalisis dan mengevaluasi sejauh mana hubungan Pengelolaan Terpadu Jeruk Sehat dengan pembangunan berkelanjutan"
+        }
+    ],
     "labelBack": "Kembali",
     "labelNext": "Berikutnya",
     "textBack": "Bagian III",

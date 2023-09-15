@@ -45,9 +45,11 @@ const S1P7 = () => {
                     <p className="font-light text-justify text-gray-500 text-base pb-2">
                         {value.content2}
                     </p>
-                    <div className="">
-                        <img className="pb-4" src={Task2} />
-                        <div className="flex flex-col gap-3">
+                    <div>
+                        <div className="flex flex-col items-center pb-4">
+                            <img width={600} src={Task2} />
+                        </div>
+                        <div className="sm:flex lg:flex flex-row gap-3 w-2/2 ">
                             <PersistentTextarea
                                 id={value.content3}
                                 placeholder={value.content3}

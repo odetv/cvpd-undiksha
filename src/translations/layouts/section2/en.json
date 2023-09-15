@@ -3,9 +3,13 @@
     "2": "ENGAGE WITH THREE-DIMENSIONAL LEARNING",
     "3": "This second section will help you engage in three-dimensional learning related to CVPD disease in citrus plantations. You will discover disciplinary core ideas, cross-cutting concepts, and science practice in these socioscientific issues.",
     "4": "Learning Objectives",
-    "5": "Explain the disciplinary core ideas in this socio-scientific issues",
-    "6": "Explain cross cutting concept: CVPD Disease at different Citrus Plantation in Kintamani, cause and effect CVPD Disease in Citrus Plantation",
-    "7": "Analyze and interpret data as a science practice dimension related to CVPD Disease in Citrus Plantation",
+    "los2": [
+        {
+            "5": "Explain the disciplinary core ideas in this socio-scientific issues",
+            "6": "Explain cross cutting concept: CVPD Disease at different Citrus Plantation in Kintamani, cause and effect CVPD Disease in Citrus Plantation",
+            "7": "Analyze and interpret data as a science practice dimension related to CVPD Disease in Citrus Plantation"
+        }
+    ],
     "labelBack": "Back",
     "labelNext": "Next",
     "textBack": "Section I",

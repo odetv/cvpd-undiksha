@@ -46,7 +46,7 @@ const S1P3 = () => {
                     <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
                         {value.content3}
                     </p>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-4 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure3} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -54,7 +54,7 @@ const S1P3 = () => {
                             </h1>
                         </div>
                     </div>
-                    <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
+                    <p className="indent-8 font-light text-justify text-gray-500 text-base pt-4 pb-2">
                         {value.content4}
                     </p>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">

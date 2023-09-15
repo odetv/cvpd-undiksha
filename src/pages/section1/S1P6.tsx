@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ImageFigure6 from "../../assets/images/section1/Figure6.jpg";
-import ImageFigure7v1 from "../../assets/images/section1/Figure7-1.jpg";
-import ImageFigure7v2 from "../../assets/images/section1/Figure7-2.jpg";
+import ImageFigure7 from "../../assets/images/section1/Figure7.jpg";
 import { useTranslation } from "react-i18next";
 
 const S1P6 = () => {
@@ -16,8 +15,7 @@ const S1P6 = () => {
             content2: t("4"),
             labelFigure6: t("5"),
             content3: t("6"),
-            labelFigure7v1: t("7"),
-            labelFigure7v2: t("8"),
+            labelFigure7: t("7"),
             content4: t("9"),
             labelBack: t("labelBack"),
             labelNext: t("labelNext"),
@@ -47,7 +45,7 @@ const S1P6 = () => {
                     <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
                         {value.content2}
                     </p>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-4 mb-16 shadow-lg">
                         <img className="w-full" src={ImageFigure6} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -55,26 +53,18 @@ const S1P6 = () => {
                             </h1>
                         </div>
                     </div>
-                    <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
+                    <p className="indent-8 font-light text-justify text-gray-500 text-base pt-4 pb-2">
                         {value.content3}
                     </p>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
-                        <img className="w-full" src={ImageFigure7v1} />
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-4 mb-16 shadow-lg">
+                        <img className="w-full" src={ImageFigure7} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
-                                {value.labelFigure7v1}
+                                {value.labelFigure7}
                             </h1>
                         </div>
                     </div>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
-                        <img className="w-full" src={ImageFigure7v2} />
-                        <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
-                            <h1 className="text-base text-white font-bold text-center">
-                                {value.labelFigure7v2}
-                            </h1>
-                        </div>
-                    </div>
-                    <p className="indent-8 font-light text-justify text-gray-500 text-base pb-2">
+                    <p className="indent-8 font-light text-justify text-gray-500 text-base pt-4 pb-2">
                         {value.content4}
                     </p>
                     <div className="flex flex-col gap-3 md:flex-row md:justify-between w-full max-w-screen-lg mx-auto mt-12">

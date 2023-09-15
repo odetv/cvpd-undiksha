@@ -54,7 +54,7 @@ const S3P1 = () => {
                     <h1 className="pb-6 text-center lg:text-lg font-bold text-gray-500">
                         {value.subtitle}
                     </h1>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-4 mb-14 shadow-lg">
                         <img className="w-full" src={ImageFigure8} />
                         <div className="absolute bottom--5 left-0 right-0 px-4 py-2 bg-gray-800 opacity-70">
                             <h1 className="text-base text-white font-bold text-center">
@@ -115,7 +115,7 @@ const S3P1 = () => {
                             </h1>
                         </div>
                     </div>
-                    <div className="font-light text-justify text-gray-500 text-base">
+                    <div className="font-light text-justify text-gray-500 text-base pt-6 sm:pt-0 md:pt-0 lg:pt-0 xl:pt-0">
                         {value.content16}
                     </div>
                     <div className="font-light text-justify text-gray-500 text-base">

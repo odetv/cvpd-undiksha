@@ -3,8 +3,12 @@
     "2": "IDE KUNCI & PRAKTIK SINTESIS Penyakit CVPD di Perkebunan Jeruk",
     "3": "Pada bagian ketiga ini Anda akan menemukan cara terbaik untuk mencegah penyakit CVPD pada tanaman jeruk (termasuk evaluasi dan refleksi) melalui Pengelolaan Terpadu Jeruk Sehat.",
     "4": "Tujuan Pembelajaran",
-    "5": "Menjelaskan Pengelolaan Terpadu Jeruk Sehat",
-    "6": "Menganalisis dan mengevaluasi Pengelolaan Terpadu Jeruk Sehat",
+    "los3": [
+        {
+            "5": "Menjelaskan Pengelolaan Terpadu Jeruk Sehat",
+            "6": "Menganalisis dan mengevaluasi Pengelolaan Terpadu Jeruk Sehat"
+        }
+    ],
     "labelBack": "Kembali",
     "labelNext": "Berikutnya",
     "textBack": "Bagian II",

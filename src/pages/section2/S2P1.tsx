@@ -44,7 +44,7 @@ const S2P1 = () => {
                     <div className="indent-8 font-light text-justify text-gray-500 text-base">
                         {value.content2}
                     </div>
-                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-16 shadow-lg">
+                    <div className="transform transition duration-500 hover:scale-105 mx-auto relative w-full sm:w-[700px] md:w-[500px] xl:w-[500px] lg:w-[500px] mt-8 mb-8 shadow-lg">
                         <img className="w-full" src={Image1} />
                     </div>
                     <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500">

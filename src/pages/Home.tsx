@@ -41,7 +41,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section1"
-                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600 ease-in-out transition-all 0.5"
                             >
                                 {t("16")}
                                 <svg
@@ -70,7 +70,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section2"
-                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600 ease-in-out transition-all 0.5"
                             >
                                 {t("16")}
                                 <svg
@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section3"
-                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600 ease-in-out transition-all 0.5"
                             >
                                 {t("16")}
                                 <svg
@@ -128,7 +128,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section4"
-                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600 ease-in-out transition-all 0.5"
                             >
                                 {t("16")}
                                 <svg

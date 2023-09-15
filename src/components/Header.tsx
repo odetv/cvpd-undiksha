@@ -83,7 +83,7 @@ const Header = () => {
                 </div>
                 <div className="flex lg:hidden gap-3">
                     <button
-                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
+                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer ease-in-out transition-all 0.5"
                         onClick={
                             isTranslatedToID
                                 ? handleSwitchToEnglish
@@ -161,7 +161,7 @@ const Header = () => {
                                                     {item.name}
                                                     <span className="absolute inset-0" />
                                                 </a>
-                                                <p className="mt-1 text-gray-600 uppercase">
+                                                <p className="mt-1 text-gray-600">
                                                     {item.description}
                                                 </p>
                                             </div>
@@ -180,7 +180,7 @@ const Header = () => {
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-3">
                     <button
-                        className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer"
+                        className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg cursor-pointer ease-in-out transition-all 0.5"
                         onClick={
                             isTranslatedToID
                                 ? handleSwitchToEnglish
@@ -202,7 +202,7 @@ const Header = () => {
                             </div>
                         )}
                     </button>
-                    <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-lg">
+                    <button className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-lg ease-in-out transition-all 0.5">
                         <a
                             href="https://opmx-preview.web.app/"
                             target="_blank"
@@ -234,7 +234,7 @@ const Header = () => {
                         </Link>
                         <div className="flex gap-5">
                             <button
-                                className="ml-7 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer"
+                                className="ml-7 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-lg cursor-pointer ease-in-out transition-all 0.5"
                                 onClick={
                                     isTranslatedToID
                                         ? handleSwitchToEnglish
@@ -274,7 +274,7 @@ const Header = () => {
                             <div className="space-y-2 py-6">
                                 <Link
                                     to="/"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white ease-in-out transition-all 0.5"
                                     onClick={handleMenuClick}
                                 >
                                     {t("1")}
@@ -303,7 +303,7 @@ const Header = () => {
                                                         key={item.name}
                                                         as="a"
                                                         href={item.href}
-                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white"
+                                                        className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-blue-800 hover:text-white ease-in-out transition-all 0.5"
                                                     >
                                                         {item.name}
                                                     </Disclosure.Button>
@@ -323,7 +323,7 @@ const Header = () => {
                             <div className="py-6 text-right flex gap-3 justify-end">
                                 <button
                                     onClick={handleMenuClick}
-                                    className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-3 rounded-lg"
+                                    className="bg-green-700 hover:bg-green-800 text-white font-bold py-2 px-3 rounded-lg ease-in-out transition-all 0.5"
                                 >
                                     <a
                                         href="https://opmx-preview.web.app/"
