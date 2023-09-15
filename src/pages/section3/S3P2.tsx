@@ -8,15 +8,14 @@ const S3P2 = () => {
     const ContentS3P2 = [
         {
             id: "",
-            title: "Section III",
-            subtitle: "Integrated Management of Healthy Citrus",
-            content1: "Task 1",
-            content2:
-                'Please share your thoughts on what "integrated management of healthy citrus" entails after reading the text. Is there any difference when farmers use this method on citrus plantations?',
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "INTEGRATED MANAGEMENT OF HEALTHY CITRUS",
-            textNext: "Task 2",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section3/1",
             linkNext: "/section3/3",
         },

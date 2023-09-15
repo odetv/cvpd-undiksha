@@ -145,7 +145,7 @@ const Header = () => {
                                     {module.map((item) => (
                                         <div
                                             key={item.name}
-                                            className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                                            className="group relative flex items-center gap-x-6 rounded-lg p-3 text-sm leading-6 ease-in-out transition-all 0.5 hover:shadow-xl hover:bg-blue-50 bg-gray-100 my-2"
                                         >
                                             <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                                                 <item.icon
@@ -161,7 +161,7 @@ const Header = () => {
                                                     {item.name}
                                                     <span className="absolute inset-0" />
                                                 </a>
-                                                <p className="mt-1 text-gray-600">
+                                                <p className="mt-1 text-gray-600 uppercase">
                                                     {item.description}
                                                 </p>
                                             </div>

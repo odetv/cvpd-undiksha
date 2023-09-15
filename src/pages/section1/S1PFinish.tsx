@@ -36,7 +36,7 @@ const S1PFinish = () => {
                                 alt=""
                             />
                             <figure className="mt-10">
-                                <blockquote className="text-center text-md font-semibold leading-8 text-gray-600 sm:text-xl sm:leading-9">
+                                <blockquote className="text-center text-md font-semibold leading-8 text-gray-600 sm:text-xl sm:leading-9 uppercase">
                                     <p>{value.title}</p>
                                 </blockquote>
                                 <blockquote className="text-center text-2xl font-bold leading-8 text-gray-900 sm:text-2xl sm:leading-9">

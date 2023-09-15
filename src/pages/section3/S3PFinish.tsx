@@ -8,12 +8,12 @@ const S3PFinish = () => {
     const ContentS3PFinish = [
         {
             id: "",
-            title: "Section III: SYNTHESIS KEY IDEAS & PRACTICE CVPD Disease in Citrus Plantation",
-            subtitle: "~ Completed ~",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Home",
-            textNext: "Section IV",
+            title: t("1"),
+            subtitle: t("2"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/",
             linkNext: "/section4",
         },
@@ -36,7 +36,7 @@ const S3PFinish = () => {
                                 alt=""
                             />
                             <figure className="mt-10">
-                                <blockquote className="text-center text-md font-semibold leading-8 text-gray-600 sm:text-xl sm:leading-9">
+                                <blockquote className="text-center text-md font-semibold leading-8 text-gray-600 sm:text-xl sm:leading-9 uppercase">
                                     <p>{value.title}</p>
                                 </blockquote>
                                 <blockquote className="text-center text-2xl font-bold leading-8 text-gray-900 sm:text-2xl sm:leading-9">

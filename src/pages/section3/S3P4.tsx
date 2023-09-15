@@ -8,16 +8,14 @@ const S3P4 = () => {
     const ContentS3P4 = [
         {
             id: "",
-            title: "Section III",
-            subtitle:
-                "SUMMARY SECTION III SYNTHESIS KEY IDEAS & PRACTICE Integrated Management of Healthy Citrus",
-            content1: "Task 3",
-            content2:
-                "After learning about the third section, please make a summary based on your own understanding!",
-            labelBack: "Back",
-            labelNext: "Next",
-            textBack: "Task 2",
-            textNext: "Finish",
+            title: t("1"),
+            subtitle: t("2"),
+            content1: t("3"),
+            content2: t("4"),
+            labelBack: t("labelBack"),
+            labelNext: t("labelNext"),
+            textBack: t("textBack"),
+            textNext: t("textNext"),
             linkBack: "/section3/3",
             linkNext: "/section3/finish",
         },

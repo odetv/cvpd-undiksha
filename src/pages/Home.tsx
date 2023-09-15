@@ -19,14 +19,14 @@ const Home = () => {
                     <img
                         src={ImageIntro}
                         alt="CVPD Undiksha"
-                        className="shadow-lg mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-80 lg:w-10/12 xl:h-80 xl:w-10/12"
+                        className="shadow-lg mx-auto mt-8 mb-8 rounded-lg object-cover lg:h-96 lg:w-9/12"
                     />
                     <p className="indent-8 font-light text-justify text-gray-500 text-base">
                         {t("3")}
                     </p>
                 </div>
                 <div className="mx-auto max-w-screen-xl grid gap-6 lg:grid-cols-4">
-                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-xl ease-in-out transition-all 0.5">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
                                 {t("4")}
@@ -41,7 +41,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section1"
-                                className="inline-flex items-center font-bold text-gray-900"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
                             >
                                 {t("16")}
                                 <svg
@@ -55,7 +55,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-xl ease-in-out transition-all 0.5">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
                                 {t("7")}
@@ -70,7 +70,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section2"
-                                className="inline-flex items-center font-bold text-gray-900"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
                             >
                                 {t("16")}
                                 <svg
@@ -84,7 +84,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-xl ease-in-out transition-all 0.5">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
                                 {t("10")}
@@ -99,7 +99,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section3"
-                                className="inline-flex items-center font-bold text-gray-900"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
                             >
                                 {t("16")}
                                 <svg
@@ -113,7 +113,7 @@ const Home = () => {
                             </Link>
                         </div>
                     </article>
-                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md">
+                    <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:shadow-xl ease-in-out transition-all 0.5">
                         <div className="flex justify-between items-center mb-5 text-gray-500">
                             <span className="text-xs font-bold bg-blue-500 text-white p-1.5 rounded-md">
                                 {t("13")}
@@ -128,7 +128,7 @@ const Home = () => {
                         <div className="flex justify-end items-center">
                             <Link
                                 to="section4"
-                                className="inline-flex items-center font-bold text-gray-900"
+                                className="inline-flex items-center font-bold text-gray-900 hover:text-blue-600"
                             >
                                 {t("16")}
                                 <svg
