@@ -15,8 +15,8 @@ const S3P1 = () => {
             content1: t("4"),
             content2: t("5"),
             content3: t("6"),
-            content4: t("7"),
-            content5: t("8"),
+            // content4: t("7"),
+            // content5: t("8"),
             content6: t("9"),
             content7: t("10"),
             content8: t("11"),
@@ -77,14 +77,8 @@ const S3P1 = () => {
                     <div className="indent-8 font-light text-justify text-gray-500 text-base">
                         {value.content5}
                     </div>
-                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
+                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500">
                         {value.content6}
-                    </h1>
-                    <div className="indent-8 font-light text-justify text-gray-500 text-base">
-                        {value.content7}
-                    </div>
-                    <h1 className="pb-2 text-left text-sm lg:text-base font-bold text-gray-500 mt-6">
-                        {value.content8}
                     </h1>
                     <div className="indent-8 font-light text-justify text-gray-500 text-base">
                         {value.content9}
